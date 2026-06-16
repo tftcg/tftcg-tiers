@@ -31,3 +31,5 @@ List which promo cards were found and deleted.
 Wave 1 also had the Energon Edition cards. These do not have the promo style of number but instead are repeating the numbers again. They start on line 2980 of Sets/e6019a01-01af-405a-a077-981fc79b52fb/set.xml and continue until line 3237. Identify a way to filter these out.
 
 Add a third tab level for battle cards that filters "Star Cards", i.e. battle cards with a star cost of 1 or greater.
+
+Remove the "All Battle Cards" option. We already have that. Just have the Star Cards third tab" .

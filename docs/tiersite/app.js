@@ -651,13 +651,6 @@
     section.appendChild(createTabSectionLabel("Star cost"));
     const row = document.createElement("div");
     row.className = "tab-row";
-    row.appendChild(
-      createCountTabButton("All battle cards", getBattleFilterCount(viewState.battleTypeFilterKey, null), !viewState.battleTagFilterKey, () => {
-        viewState.battleTagFilterKey = null;
-        saveState();
-        render();
-      })
-    );
     for (const view of currentRuntime.battleTagFilters) {
       row.appendChild(
         createCountTabButton(
