@@ -26,7 +26,8 @@ That rebuilds:
 
 ## Notes
 
-- Set switching maps directly to TFTCG waves and related sets such as `Wave 10A` and `Outlier 1`.
+- Set switching maps directly to TFTCG waves and related sets such as `Outlier 1`.
+- `Wave 10A` is merged into `Wave 10`, so it shares the same tier list instead of appearing as its own wave.
 - Characters, Stratagems, and Battle Cards each have their own tier state.
 - Character and Stratagem flip sides persist per card within a wave.
 - Character tabs are generated from common factions and traits in that wave.

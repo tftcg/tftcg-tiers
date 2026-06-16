@@ -3,7 +3,12 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
   "meta": {
     "id": "outlier-1",
     "name": "Outlier 1",
-    "sourceSetId": "51da13e8-8e0d-4b1b-a09a-680bb5f61000",
+    "sourceSetIds": [
+      "51da13e8-8e0d-4b1b-a09a-680bb5f61000"
+    ],
+    "sourceSetNames": [
+      "Outlier 1"
+    ],
     "asset": "data/set.outlier-1.js",
     "cardCount": 15,
     "characterCount": 5,

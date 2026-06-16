@@ -26,6 +26,9 @@ BATTLE_FILTER_ORDER = (
     ("Secret Action", "Secret Action"),
     ("Rolling Action", "Rolling Action"),
 )
+MERGED_SET_NAMES = {
+    "Wave 10A": "Wave 10",
+}
 OUTPUT_ROOT = Path(__file__).resolve().parent / "docs" / "tiersite"
 DATA_DIR = OUTPUT_ROOT / "data"
 SETS_DIR = Path(__file__).resolve().parent.parent / "octgn-data" / "Sets"
@@ -78,6 +81,10 @@ def card_number_sort_key(card_number: str) -> tuple[object, ...]:
 
 def build_public_id(set_name: str) -> str:
     return slugify(set_name)
+
+
+def canonical_set_name(set_name: str) -> str:
+    return MERGED_SET_NAMES.get(set_name, set_name)
 
 
 def encode_path_segments(*segments: str) -> str:
@@ -269,19 +276,27 @@ def count_commonalities(cards: list[dict], key: str) -> list[dict]:
     return common
 
 
-def build_set_payload(set_dir: Path) -> dict | None:
-    root = load_xml(set_dir / "set.xml")
-    set_name = root.attrib.get("name", set_dir.name)
-    if set_name in SKIP_SET_NAMES:
+def build_set_payload(set_dirs: list[Path]) -> dict | None:
+    roots = [load_xml(set_dir / "set.xml") for set_dir in set_dirs]
+    raw_set_names = [root.attrib.get("name", set_dir.name) for root, set_dir in zip(roots, set_dirs)]
+    canonical_name = canonical_set_name(raw_set_names[0])
+    if canonical_name in SKIP_SET_NAMES:
         return None
 
-    cards_dir = set_dir / "Cards"
-    file_map = load_file_map(cards_dir)
     entries = []
-    for card in root.findall("./cards/card"):
-        entry = build_card_entry(card, set_dir.name, file_map)
-        if entry is not None:
-            entries.append(entry)
+    source_set_ids = []
+    source_set_names = []
+    for set_dir, root, raw_set_name in zip(set_dirs, roots, raw_set_names):
+        if canonical_set_name(raw_set_name) in SKIP_SET_NAMES:
+            continue
+        cards_dir = set_dir / "Cards"
+        file_map = load_file_map(cards_dir)
+        source_set_ids.append(root.attrib.get("id", set_dir.name))
+        source_set_names.append(raw_set_name)
+        for card in root.findall("./cards/card"):
+            entry = build_card_entry(card, set_dir.name, file_map)
+            if entry is not None:
+                entries.append(entry)
 
     if not entries:
         return None
@@ -295,7 +310,7 @@ def build_set_payload(set_dir: Path) -> dict | None:
     character_cards = cards_by_bucket["characters"]
     battle_cards = cards_by_bucket["battle-cards"]
 
-    set_id = build_public_id(set_name)
+    set_id = build_public_id(canonical_name)
     battle_views = []
     for label, filter_key in BATTLE_FILTER_ORDER:
         count = sum(1 for card in battle_cards if filter_key in card["battleFilters"])
@@ -337,8 +352,9 @@ def build_set_payload(set_dir: Path) -> dict | None:
     return {
         "meta": {
             "id": set_id,
-            "name": set_name,
-            "sourceSetId": root.attrib.get("id", set_dir.name),
+            "name": canonical_name,
+            "sourceSetIds": source_set_ids,
+            "sourceSetNames": source_set_names,
             "asset": f"data/set.{set_id}.js",
             "cardCount": len(entries),
             "characterCount": len(character_cards),
@@ -375,6 +391,11 @@ def write_manifest(manifest: dict) -> None:
     )
 
 
+def cleanup_generated_assets() -> None:
+    for path in DATA_DIR.glob("set.*.js"):
+        path.unlink()
+
+
 def discover_set_dirs(args: list[str]) -> list[Path]:
     if not args:
         return sorted(path.parent for path in SETS_DIR.glob("*/set.xml"))
@@ -403,10 +424,20 @@ def discover_set_dirs(args: list[str]) -> list[Path]:
 def main(argv: list[str]) -> int:
     set_dirs = discover_set_dirs(argv[1:])
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    cleanup_generated_assets()
 
     payloads = []
+    grouped_set_dirs: dict[str, list[Path]] = {}
     for set_dir in set_dirs:
-        payload = build_set_payload(set_dir)
+        root = load_xml(set_dir / "set.xml")
+        raw_set_name = root.attrib.get("name", set_dir.name)
+        canonical_name = canonical_set_name(raw_set_name)
+        if canonical_name in SKIP_SET_NAMES:
+            continue
+        grouped_set_dirs.setdefault(canonical_name, []).append(set_dir)
+
+    for canonical_name in sorted(grouped_set_dirs, key=wave_sort_key):
+        payload = build_set_payload(grouped_set_dirs[canonical_name])
         if payload is None:
             continue
         payloads.append(payload)

@@ -1,1 +1,7 @@
 https://hen.github.io/lorcana-tiers/tiersite/ is a Tier website that allows cards within the Lorcana TCG to be rated into tiers for each set. The source is available in the lorcana-tiers folder, with set data generated from jsons provided separately. Using the set.xml and image data within the octgn-data directory, build a similar website for Transformers TCG (aka TFTCG). Lean towards the graphical style of https://transformers.cards. The Active Set/Set-list approach should map directly to sets, aka waves, in TFTCG. Characters, Stratagems, and Battle Cards should have their own tabs rather than the 1 to 7+ cost tabs. Battle Cards should have a Weapon, Armor, Utility, Action, Secret Action, Rolling Action tabs, while Characters should identify common Factions and Traits within a set and have tabs for those commonalities within the set. Character cards have multiple sides (or modes) - usually two, but sometimes 1, 3, or in the future even 6. The default first mode should be used on a card, but clicking on a card should move to the next mode, which updates the mouseover to that image etc. Generate this website in the tftcg-tiers folder.
+
+Don't put the number of cards etc in the subtitle. Just say, for example, "Tier for Wave 4."
+
+Append each prompt used to prompts.txt
+
+Treat set 10A as a part of set 10. Don't do a separate set tier for it.

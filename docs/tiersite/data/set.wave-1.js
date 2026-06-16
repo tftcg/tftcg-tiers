@@ -3,7 +3,12 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
   "meta": {
     "id": "wave-1",
     "name": "Wave 1",
-    "sourceSetId": "e6019a01-01af-405a-a077-981fc79b52fb",
+    "sourceSetIds": [
+      "e6019a01-01af-405a-a077-981fc79b52fb"
+    ],
+    "sourceSetNames": [
+      "Wave 1"
+    ],
     "asset": "data/set.wave-1.js",
     "cardCount": 152,
     "characterCount": 58,

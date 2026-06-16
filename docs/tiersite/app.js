@@ -140,10 +140,7 @@
   function updatePageCopy() {
     setEyebrow.textContent = currentSetMeta.name;
     pageTitle.textContent = `${currentSetMeta.name} Tier Views`;
-    pageSubhead.textContent =
-      `Tier ${currentSetMeta.characterCount} Characters, ${currentSetMeta.stratagemCount} Stratagems, and `
-      + `${currentSetMeta.battleCardCount} Battle Cards for ${currentSetMeta.name}. `
-      + "Click multi-sided cards to cycle modes, and character tabs track common factions and traits for that wave.";
+    pageSubhead.textContent = `Tier for ${currentSetMeta.name}.`;
     document.title = `${currentSetMeta.name} · TFTCG Tier Views`;
   }
 

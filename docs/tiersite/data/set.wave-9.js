@@ -3,7 +3,12 @@ window.TFTCG_TIER_SITE_SETS["wave-9"] = {
   "meta": {
     "id": "wave-9",
     "name": "Wave 9",
-    "sourceSetId": "588a21f5-83e3-46c2-9ddd-32629796aed5",
+    "sourceSetIds": [
+      "588a21f5-83e3-46c2-9ddd-32629796aed5"
+    ],
+    "sourceSetNames": [
+      "Wave 9"
+    ],
     "asset": "data/set.wave-9.js",
     "cardCount": 76,
     "characterCount": 26,
