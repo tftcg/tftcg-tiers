@@ -10,10 +10,10 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       "Wave 1"
     ],
     "asset": "data/set.wave-1.js",
-    "cardCount": 152,
-    "characterCount": 58,
+    "cardCount": 137,
+    "characterCount": 51,
     "stratagemCount": 0,
-    "battleCardCount": 94
+    "battleCardCount": 86
   },
   "cards": [
     {
@@ -39,38 +39,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           "hp": "",
           "stars": "0",
           "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "121d99af-0a77-4ff6-b597-c239a0f840d9",
-      "number": "001",
-      "name": "Agility of Bumblebee",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Utility",
-      "battleFilters": [
-        "Utility"
-      ],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Utility",
-          "type": "Upgrade - Utility",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/121d99af-0a77-4ff6-b597-c239a0f840d9.jpg",
-          "atk": "1",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [
-            "Autobot"
-          ],
           "traits": [],
           "text": ""
         }
@@ -165,34 +133,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "c7f41de0-e136-43e5-8f9f-f9b65517ae7a",
-      "number": "002",
-      "name": "Bombing Run",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/c7f41de0-e136-43e5-8f9f-f9b65517ae7a.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "5bd22321-38d5-4e8a-a994-8a7b557c03ce",
       "number": "002",
       "name": "Protected By Metroplex",
@@ -281,34 +221,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "eac2ff10-1762-469f-b8a6-d3f1d0cdb831",
-      "number": "003",
-      "name": "Cargo Trailer",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Utility",
-      "battleFilters": [
-        "Utility"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Utility",
-          "type": "Upgrade - Utility",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/eac2ff10-1762-469f-b8a6-d3f1d0cdb831.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "15a941b5-d2a2-4712-8d78-7987e78223e3",
       "number": "003",
       "name": "Rally the City",
@@ -369,38 +281,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "c8d3699c-4d5f-4a41-bb2c-b46fd19498db",
-      "number": "004",
-      "name": "Fusion Cannon of Megatron",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Weapon",
-      "battleFilters": [
-        "Weapon"
-      ],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Weapon",
-          "type": "Upgrade - Weapon",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/c8d3699c-4d5f-4a41-bb2c-b46fd19498db.jpg",
-          "atk": "1",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "5e05e6cf-ccea-4929-a4e3-2bb994e601cc",
       "number": "005",
       "name": "Backup Plan",
@@ -429,38 +309,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "80682bda-12f7-4afa-afff-806c0506ae10",
-      "number": "005",
-      "name": "Ion Blaster of Optimus Prime",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Weapon",
-      "battleFilters": [
-        "Weapon"
-      ],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Weapon",
-          "type": "Upgrade - Weapon",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/80682bda-12f7-4afa-afff-806c0506ae10.jpg",
-          "atk": "2",
-          "def": "1",
-          "hp": "",
-          "stars": "0",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "c685f3ba-b74b-403d-94a6-9d58d71beeae",
       "number": "006",
       "name": "Battle Ready",
@@ -478,34 +326,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           "label": "Action",
           "type": "Action",
           "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/c685f3ba-b74b-403d-94a6-9d58d71beeae.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "ae9dbe7a-1756-43ef-9def-e6c7cc93a467",
-      "number": "006",
-      "name": "Start Your Engines",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/ae9dbe7a-1756-43ef-9def-e6c7cc93a467.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -2637,62 +2457,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "62376eb4-59b4-4447-8709-226f16256e00",
-      "number": "P11 2019",
-      "name": "All-Out Attack",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/62376eb4-59b4-4447-8709-226f16256e00.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "a0a4ebf6-8eba-4bd5-9697-2ded233f9833",
-      "number": "P12 2019",
-      "name": "Tandem Targeting System",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Utility",
-      "battleFilters": [
-        "Utility"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Utility",
-          "type": "Upgrade - Utility",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/a0a4ebf6-8eba-4bd5-9697-2ded233f9833.jpg",
-          "atk": "1",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "84a79359-a6f1-48b1-9973-78253c8da1c0",
       "number": "T01",
       "name": "Arcee, Skilled Fighter",
@@ -2787,61 +2551,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           "atk": "4",
           "def": "2",
           "hp": "9",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Melee"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "a8bab805-1c24-4cad-9ab2-a78ce1ea90d7",
-      "number": "T01",
-      "name": "Bumblebee, Legendary Warrior",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Leader",
-        "Car",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/a8bab805-1c24-4cad-9ab2-a78ce1ea90d7.jpg",
-          "atk": "4",
-          "def": "1",
-          "hp": "15",
-          "stars": "10",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Car",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/a8bab805-1c24-4cad-9ab2-a78ce1ea90d7.Bot.jpg",
-          "atk": "5",
-          "def": "1",
-          "hp": "15",
           "stars": "",
           "factions": [
             "Autobot"
@@ -3007,59 +2716,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           ],
           "traits": [
             "Specialist"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "62bc632d-d3f5-4690-adf0-fa00d2cb85cd",
-      "number": "T02",
-      "name": "Cliffjumper, Renegade Warrior",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Car",
-        "Melee",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/62bc632d-d3f5-4690-adf0-fa00d2cb85cd.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "12",
-          "stars": "8",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Car",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/62bc632d-d3f5-4690-adf0-fa00d2cb85cd.Bot.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "12",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Ranged"
           ],
           "text": ""
         }
@@ -3276,61 +2932,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "e8394dfb-9381-4730-98d2-16309eedeffc",
-      "number": "T03",
-      "name": "Megatron, Living Weapon",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Leader",
-        "Tank",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/e8394dfb-9381-4730-98d2-16309eedeffc.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "14",
-          "stars": "13",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Leader",
-            "Tank",
-            "Ranged"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/e8394dfb-9381-4730-98d2-16309eedeffc.Bot.jpg",
-          "atk": "7",
-          "def": "2",
-          "hp": "14",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Leader",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "4402e5a7-cd8b-4f24-8169-6eb0c5e3c857",
       "number": "T03",
       "name": "Optimus Prime, Autobot Leader",
@@ -3491,58 +3092,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "3dff0010-874d-466f-bb13-4ca7cb225782",
-      "number": "T04",
-      "name": "Nemesis Prime, Dark Clone",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Truck",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/3dff0010-874d-466f-bb13-4ca7cb225782.jpg",
-          "atk": "6",
-          "def": "2",
-          "hp": "16",
-          "stars": "12",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Truck",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/3dff0010-874d-466f-bb13-4ca7cb225782.Bot.jpg",
-          "atk": "7",
-          "def": "2",
-          "hp": "16",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Melee"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "a881606a-5e32-4406-a61c-811a9122cf58",
       "number": "T04",
       "name": "Red Alert, Security Chief",
@@ -3684,62 +3233,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       ]
     },
     {
-      "id": "733d5dc1-886c-41da-904e-832665e7dd2f",
-      "number": "T05",
-      "name": "Optimus Prime, Battlefield Legend",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Leader",
-        "Truck",
-        "Melee",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/733d5dc1-886c-41da-904e-832665e7dd2f.jpg",
-          "atk": "6",
-          "def": "3",
-          "hp": "14",
-          "stars": "13",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Truck",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/733d5dc1-886c-41da-904e-832665e7dd2f.Bot.jpg",
-          "atk": "8",
-          "def": "2",
-          "hp": "14",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "1687e8d8-e094-4812-a08b-238fac8cbb40",
       "number": "T06",
       "name": "Barrage, Merciless Insecticon",
@@ -3787,58 +3280,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           ],
           "traits": [
             "Insecticon",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "ed2bd344-2b0d-419b-ad76-4dfba9fe888b",
-      "number": "T06",
-      "name": "Slipstream, Strategic Seeker",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Plane",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/ed2bd344-2b0d-419b-ad76-4dfba9fe888b.jpg",
-          "atk": "3",
-          "def": "2",
-          "hp": "13",
-          "stars": "8",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Plane",
-            "Ranged"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/ed2bd344-2b0d-419b-ad76-4dfba9fe888b.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "13",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
             "Ranged"
           ],
           "text": ""
@@ -5714,58 +5155,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
           "text": ""
         }
       ]
-    },
-    {
-      "id": "1f82ba58-64a5-43bc-809a-2027b54defe4",
-      "number": "TP4 2019",
-      "name": "Flamewar, Veteran Decepticon",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Motorcycle",
-        "Specialist"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/1f82ba58-64a5-43bc-809a-2027b54defe4.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "10",
-          "stars": "5",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Motorcycle",
-            "Specialist"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/e6019a01-01af-405a-a077-981fc79b52fb/1f82ba58-64a5-43bc-809a-2027b54defe4.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "10",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Specialist"
-          ],
-          "text": ""
-        }
-      ]
     }
   ],
   "characterFilters": {
@@ -5776,7 +5165,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Autobot",
-        "count": 33
+        "count": 30
       },
       {
         "key": "filter:character:faction:decepticon",
@@ -5784,7 +5173,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Decepticon",
-        "count": 25
+        "count": 21
       }
     ],
     "traits": [
@@ -5794,7 +5183,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Ranged",
-        "count": 32
+        "count": 28
       },
       {
         "key": "filter:character:trait:melee",
@@ -5802,7 +5191,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Melee",
-        "count": 30
+        "count": 26
       },
       {
         "key": "filter:character:trait:leader",
@@ -5810,7 +5199,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Leader",
-        "count": 17
+        "count": 14
       },
       {
         "key": "filter:character:trait:car",
@@ -5818,7 +5207,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Car",
-        "count": 14
+        "count": 12
       },
       {
         "key": "filter:character:trait:specialist",
@@ -5826,14 +5215,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Specialist",
-        "count": 11
-      },
-      {
-        "key": "filter:character:trait:truck",
-        "label": "Truck",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Truck",
         "count": 10
       },
       {
@@ -5842,7 +5223,15 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Plane",
-        "count": 9
+        "count": 8
+      },
+      {
+        "key": "filter:character:trait:truck",
+        "label": "Truck",
+        "bucket": "characters",
+        "kind": "trait",
+        "value": "Truck",
+        "count": 8
       },
       {
         "key": "filter:character:trait:insecticon",
@@ -5850,14 +5239,6 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Insecticon",
-        "count": 6
-      },
-      {
-        "key": "filter:character:trait:tank",
-        "label": "Tank",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Tank",
         "count": 6
       },
       {
@@ -5869,12 +5250,20 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
         "count": 5
       },
       {
+        "key": "filter:character:trait:tank",
+        "label": "Tank",
+        "bucket": "characters",
+        "kind": "trait",
+        "value": "Tank",
+        "count": 5
+      },
+      {
         "key": "filter:character:trait:motorcycle",
         "label": "Motorcycle",
         "bucket": "characters",
         "kind": "trait",
         "value": "Motorcycle",
-        "count": 4
+        "count": 3
       }
     ]
   },
@@ -5885,7 +5274,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Weapon",
-      "count": 18
+      "count": 16
     },
     {
       "key": "filter:battle:armor",
@@ -5901,7 +5290,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Utility",
-      "count": 19
+      "count": 16
     },
     {
       "key": "filter:battle:action",
@@ -5909,7 +5298,7 @@ window.TFTCG_TIER_SITE_SETS["wave-1"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Action",
-      "count": 47
+      "count": 44
     }
   ]
 };

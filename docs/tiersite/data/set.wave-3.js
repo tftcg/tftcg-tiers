@@ -10,10 +10,10 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       "Wave 3"
     ],
     "asset": "data/set.wave-3.js",
-    "cardCount": 151,
-    "characterCount": 73,
+    "cardCount": 132,
+    "characterCount": 61,
     "stratagemCount": 0,
-    "battleCardCount": 78
+    "battleCardCount": 71
   },
   "cards": [
     {
@@ -39,38 +39,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "hp": "",
           "stars": "0",
           "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "936854b3-1627-4a2e-81a1-2e1acad90405",
-      "number": "001",
-      "name": "Buzzsaw, Ravage, Frenzy Attack!",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/936854b3-1627-4a2e-81a1-2e1acad90405.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [
-            "Decepticon"
-          ],
           "traits": [],
           "text": ""
         }
@@ -169,38 +137,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "bf8e9730-a47b-435e-858a-5b716da1af7c",
-      "number": "002",
-      "name": "Daring Counterattack",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/bf8e9730-a47b-435e-858a-5b716da1af7c.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "bafe07d4-5a49-4851-85c7-eaf649eb78cb",
       "number": "003",
       "name": "Basic Combat Protocol",
@@ -246,34 +182,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
           "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/2e4f8ffb-52b9-4712-b903-2985a0511f23.jpg",
-          "atk": "1",
-          "def": "1",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "428ae217-7b55-487c-b4a3-b886ca2632f6",
-      "number": "003",
-      "name": "Inner Groove",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Utility",
-      "battleFilters": [
-        "Utility"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Utility",
-          "type": "Upgrade - Utility",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/428ae217-7b55-487c-b4a3-b886ca2632f6.jpg",
           "atk": "1",
           "def": "1",
           "hp": "",
@@ -332,38 +240,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "label": "Action",
           "type": "Action",
           "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/624653bd-112a-4e68-a6be-abe908d55887.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "1",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "6674b3d3-9eca-4964-9bdd-e9dfb251c2df",
-      "number": "004",
-      "name": "Intercept Communications",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/6674b3d3-9eca-4964-9bdd-e9dfb251c2df.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -437,38 +313,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "fe8e0d4d-ac91-4cd8-8c53-43df91dcba3a",
-      "number": "005",
-      "name": "Interpret The Airwaves",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/fe8e0d4d-ac91-4cd8-8c53-43df91dcba3a.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "1",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "1c8894f9-13b2-47fa-a9c0-10bc5b3d766d",
       "number": "006",
       "name": "Battlefield Scan",
@@ -486,34 +330,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "label": "Action",
           "type": "Action",
           "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/1c8894f9-13b2-47fa-a9c0-10bc5b3d766d.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "983b5d07-cc06-4744-bd13-c20511264137",
-      "number": "006",
-      "name": "Obstructive Rhythm",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Armor",
-      "battleFilters": [
-        "Armor"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Armor",
-          "type": "Upgrade - Armor",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/983b5d07-cc06-4744-bd13-c20511264137.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -570,34 +386,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "label": "Secret Action",
           "type": "Secret Action",
           "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/a1dfcf56-5809-43e5-9c39-05b9e285704a.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "b3dbe874-044e-4a35-b932-1533f499958c",
-      "number": "007",
-      "name": "Recover Cassette",
-      "rarity": "Rare",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/b3dbe874-044e-4a35-b932-1533f499958c.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -2372,56 +2160,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "cd9f3159-4a23-470b-b0f2-41933befcdc0",
-      "number": "T01",
-      "name": "Blaster, Communications",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Specialist"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/cd9f3159-4a23-470b-b0f2-41933befcdc0.jpg",
-          "atk": "0",
-          "def": "2",
-          "hp": "14",
-          "stars": "10",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Specialist"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/cd9f3159-4a23-470b-b0f2-41933befcdc0.Bot.jpg",
-          "atk": "5",
-          "def": "1",
-          "hp": "14",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Specialist"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "2cc006af-7afc-49b4-ab99-2d17a67db794",
       "number": "T01",
       "name": "Private Camshaft, Special Ops • Scout",
@@ -2525,58 +2263,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           ],
           "traits": [
             "Leader",
-            "Specialist"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "a2e25515-d013-48b3-ac0b-72553d03f3ae",
-      "number": "T02",
-      "name": "Eject, Electronic Surveillance",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Specialist"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/a2e25515-d013-48b3-ac0b-72553d03f3ae.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/a2e25515-d013-48b3-ac0b-72553d03f3ae.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette",
             "Specialist"
           ],
           "text": ""
@@ -2738,58 +2424,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           ],
           "traits": [
             "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "552b6417-80fe-4b72-b9b6-70dd057d460a",
-      "number": "T03",
-      "name": "Ramhorn, Warrior",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/552b6417-80fe-4b72-b9b6-70dd057d460a.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/552b6417-80fe-4b72-b9b6-70dd057d460a.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette",
-            "Melee"
           ],
           "text": ""
         }
@@ -2958,58 +2592,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "377f4bcc-7436-47aa-8053-78e78af91b20",
-      "number": "T04",
-      "name": "Steeljaw, Tracker",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/377f4bcc-7436-47aa-8053-78e78af91b20.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/377f4bcc-7436-47aa-8053-78e78af91b20.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Mini-Cassette",
-            "Melee"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "bf8668b4-246b-46f8-bef3-bbb56a2d2ac3",
       "number": "T04",
       "name": "Steeljaw, Tracker",
@@ -3167,111 +2749,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "838eabc7-402a-4627-9209-30a07bf642da",
-      "number": "T05",
-      "name": "Soundwave, Communications",
-      "rarity": "Super Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Leader",
-        "Specialist"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/838eabc7-402a-4627-9209-30a07bf642da.jpg",
-          "atk": "0",
-          "def": "2",
-          "hp": "15",
-          "stars": "10",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Leader",
-            "Specialist"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/838eabc7-402a-4627-9209-30a07bf642da.Bot.jpg",
-          "atk": "4",
-          "def": "2",
-          "hp": "15",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Leader",
-            "Specialist"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "894d4cc9-b679-4db4-b4a8-4c4c200fa9da",
-      "number": "T06",
-      "name": "Buzzsaw, Spy",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/894d4cc9-b679-4db4-b4a8-4c4c200fa9da.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/894d4cc9-b679-4db4-b4a8-4c4c200fa9da.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "e3ed0fae-dfe9-445c-9096-fe2415ce7475",
       "number": "T06",
       "name": "Buzzsaw, Spy",
@@ -3373,58 +2850,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "traits": [
             "Leader",
             "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "57de52db-be79-49e4-9a70-bcbd7ab73beb",
-      "number": "T07",
-      "name": "Frenzy, Warrior",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/57de52db-be79-49e4-9a70-bcbd7ab73beb.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/57de52db-be79-49e4-9a70-bcbd7ab73beb.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette",
-            "Melee"
           ],
           "text": ""
         }
@@ -3585,58 +3010,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           ],
           "traits": [
             "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "0d9bd898-5b85-4c0a-bf33-c0ee685ade24",
-      "number": "T08",
-      "name": "Ravage, Saboteur",
-      "rarity": "Rare",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Mini-Cassette",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/0d9bd898-5b85-4c0a-bf33-c0ee685ade24.jpg",
-          "atk": "0",
-          "def": "1",
-          "hp": "9",
-          "stars": "5",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/0d9bd898-5b85-4c0a-bf33-c0ee685ade24.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "9",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Mini-Cassette",
-            "Melee"
           ],
           "text": ""
         }
@@ -5879,58 +5252,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       ]
     },
     {
-      "id": "5f7b3632-b8ab-498f-9f87-1e3d47fe0dc7",
-      "number": "TP6 2019",
-      "name": "Private Red Alert, Medical • Medic",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Car",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/5f7b3632-b8ab-498f-9f87-1e3d47fe0dc7.jpg",
-          "atk": "3",
-          "def": "2",
-          "hp": "11",
-          "stars": "7",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Car",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/5f7b3632-b8ab-498f-9f87-1e3d47fe0dc7.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "11",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Melee"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
       "id": "8cebb7b0-b95b-417c-8098-703032e77ba8",
       "number": "TP7 2019",
       "name": "Nightbird, Enigmatic Agent",
@@ -5981,165 +5302,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
           "text": ""
         }
       ]
-    },
-    {
-      "id": "08036fef-f380-41b4-8b5a-406d4b13e8c8",
-      "number": "TP8 2019",
-      "name": "Raider Runabout, Infantry • Soldier",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Car",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/08036fef-f380-41b4-8b5a-406d4b13e8c8.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "13",
-          "stars": "10",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Car",
-            "Ranged"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/08036fef-f380-41b4-8b5a-406d4b13e8c8.Bot.jpg",
-          "atk": "4",
-          "def": "2",
-          "hp": "13",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "f43a5031-6022-49c7-a34f-2d6c8e4fcf10",
-      "number": "TP9 2019",
-      "name": "Raider Runamuck, Infantry • Soldier",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Car",
-        "Specialist"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/f43a5031-6022-49c7-a34f-2d6c8e4fcf10.jpg",
-          "atk": "4",
-          "def": "2",
-          "hp": "13",
-          "stars": "10",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Car",
-            "Specialist"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/f43a5031-6022-49c7-a34f-2d6c8e4fcf10.Bot.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "13",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Specialist"
-          ],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "ecf0e42b-1b60-4235-97e1-5b634f7d12e9",
-      "number": "TP10 2019",
-      "name": "Raider Road Hugger, Infantry • Tactics",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Sports Car Patrol",
-        "Car",
-        "Melee"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/ecf0e42b-1b60-4235-97e1-5b634f7d12e9.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "7",
-          "stars": "5",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Sports Car Patrol",
-            "Car",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/a4e3a90a-e819-4561-bf23-51b5736d8020/ecf0e42b-1b60-4235-97e1-5b634f7d12e9.Bot.jpg",
-          "atk": "3",
-          "def": "1",
-          "hp": "7",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Sports Car Patrol",
-            "Melee"
-          ],
-          "text": ""
-        }
-      ]
     }
   ],
   "characterFilters": {
@@ -6150,7 +5312,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Autobot",
-        "count": 37
+        "count": 32
       },
       {
         "key": "filter:character:faction:decepticon",
@@ -6158,25 +5320,25 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Decepticon",
-        "count": 35
+        "count": 28
       }
     ],
     "traits": [
-      {
-        "key": "filter:character:trait:melee",
-        "label": "Melee",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Melee",
-        "count": 28
-      },
       {
         "key": "filter:character:trait:ranged",
         "label": "Ranged",
         "bucket": "characters",
         "kind": "trait",
         "value": "Ranged",
-        "count": 27
+        "count": 25
+      },
+      {
+        "key": "filter:character:trait:melee",
+        "label": "Melee",
+        "bucket": "characters",
+        "kind": "trait",
+        "value": "Melee",
+        "count": 22
       },
       {
         "key": "filter:character:trait:specialist",
@@ -6184,7 +5346,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Specialist",
-        "count": 21
+        "count": 17
       },
       {
         "key": "filter:character:trait:car",
@@ -6192,7 +5354,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Car",
-        "count": 20
+        "count": 16
       },
       {
         "key": "filter:character:trait:leader",
@@ -6200,15 +5362,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Leader",
-        "count": 12
-      },
-      {
-        "key": "filter:character:trait:mini-cassette",
-        "label": "Mini-Cassette",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Mini-Cassette",
-        "count": 12
+        "count": 11
       },
       {
         "key": "filter:character:trait:truck",
@@ -6235,6 +5389,14 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "count": 7
       },
       {
+        "key": "filter:character:trait:mini-cassette",
+        "label": "Mini-Cassette",
+        "bucket": "characters",
+        "kind": "trait",
+        "value": "Mini-Cassette",
+        "count": 6
+      },
+      {
         "key": "filter:character:trait:firecon",
         "label": "Firecon",
         "bucket": "characters",
@@ -6256,14 +5418,6 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Spaceship",
-        "count": 3
-      },
-      {
-        "key": "filter:character:trait:sports-car-patrol",
-        "label": "Sports Car Patrol",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Sports Car Patrol",
         "count": 3
       },
       {
@@ -6291,7 +5445,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Armor",
-      "count": 13
+      "count": 12
     },
     {
       "key": "filter:battle:utility",
@@ -6299,7 +5453,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Utility",
-      "count": 13
+      "count": 12
     },
     {
       "key": "filter:battle:action",
@@ -6307,7 +5461,7 @@ window.TFTCG_TIER_SITE_SETS["wave-3"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Action",
-      "count": 34
+      "count": 29
     },
     {
       "key": "filter:battle:secret-action",

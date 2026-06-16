@@ -10,10 +10,10 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
       "Wave 6"
     ],
     "asset": "data/set.wave-6.js",
-    "cardCount": 131,
-    "characterCount": 32,
+    "cardCount": 128,
+    "characterCount": 31,
     "stratagemCount": 35,
-    "battleCardCount": 64
+    "battleCardCount": 62
   },
   "cards": [
     {
@@ -1867,66 +1867,6 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
           "hp": "",
           "stars": "0",
           "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "61479376-bebb-430f-bdfb-245bec26bc5b",
-      "number": "P02 2022",
-      "name": "Scrounging For Energon",
-      "rarity": "Uncommon",
-      "bucket": "battle-cards",
-      "primaryType": "Action",
-      "battleFilters": [
-        "Action"
-      ],
-      "factions": [],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Action",
-          "type": "Action",
-          "image": "assets/cards/ee692b0f-89ac-5475-69eb-4ea2b667ddbf/61479376-bebb-430f-bdfb-245bec26bc5b.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "0",
-          "factions": [],
-          "traits": [],
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "0444a139-b1f2-4ae0-9194-7c355d3b629b",
-      "number": "P07 2020",
-      "name": "Aspect of Laughter",
-      "rarity": "Common",
-      "bucket": "battle-cards",
-      "primaryType": "Upgrade - Armor",
-      "battleFilters": [
-        "Armor"
-      ],
-      "factions": [
-        "Quintesson"
-      ],
-      "traits": [],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Upgrade - Armor",
-          "type": "Upgrade - Armor",
-          "image": "assets/cards/ee692b0f-89ac-5475-69eb-4ea2b667ddbf/0444a139-b1f2-4ae0-9194-7c355d3b629b.jpg",
-          "atk": "",
-          "def": "2",
-          "hp": "",
-          "stars": "1",
-          "factions": [
-            "Quintesson"
-          ],
           "traits": [],
           "text": ""
         }
@@ -5027,56 +4967,6 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
           "text": ""
         }
       ]
-    },
-    {
-      "id": "bf3faf80-f538-4ec0-8e9b-28daa4ca58a5",
-      "number": "TP01 2022",
-      "name": "Lokos",
-      "rarity": "Uncommon",
-      "bucket": "characters",
-      "primaryType": "Character - Head Mode",
-      "battleFilters": [],
-      "factions": [
-        "Decepticon"
-      ],
-      "traits": [
-        "Titan Master",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Head",
-          "type": "Character - Head Mode",
-          "image": "assets/cards/ee692b0f-89ac-5475-69eb-4ea2b667ddbf/bf3faf80-f538-4ec0-8e9b-28daa4ca58a5.jpg",
-          "atk": "",
-          "def": "",
-          "hp": "",
-          "stars": "3",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/ee692b0f-89ac-5475-69eb-4ea2b667ddbf/bf3faf80-f538-4ec0-8e9b-28daa4ca58a5.Bot.jpg",
-          "atk": "3",
-          "def": "0",
-          "hp": "2",
-          "stars": "",
-          "factions": [
-            "Decepticon"
-          ],
-          "traits": [
-            "Titan Master",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
     }
   ],
   "characterFilters": {
@@ -5095,7 +4985,7 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Decepticon",
-        "count": 10
+        "count": 9
       },
       {
         "key": "filter:character:faction:autobot",
@@ -5121,7 +5011,7 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Ranged",
-        "count": 13
+        "count": 12
       },
       {
         "key": "filter:character:trait:specialist",
@@ -5172,14 +5062,6 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
         "count": 4
       },
       {
-        "key": "filter:character:trait:titan-master",
-        "label": "Titan Master",
-        "bucket": "characters",
-        "kind": "trait",
-        "value": "Titan Master",
-        "count": 4
-      },
-      {
         "key": "filter:character:trait:truck",
         "label": "Truck",
         "bucket": "characters",
@@ -5202,6 +5084,14 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
         "kind": "trait",
         "value": "Spaceship",
         "count": 3
+      },
+      {
+        "key": "filter:character:trait:titan-master",
+        "label": "Titan Master",
+        "bucket": "characters",
+        "kind": "trait",
+        "value": "Titan Master",
+        "count": 3
       }
     ]
   },
@@ -5220,7 +5110,7 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Armor",
-      "count": 8
+      "count": 7
     },
     {
       "key": "filter:battle:utility",
@@ -5236,7 +5126,7 @@ window.TFTCG_TIER_SITE_SETS["wave-6"] = {
       "bucket": "battle-cards",
       "kind": "battle",
       "value": "Action",
-      "count": 20
+      "count": 19
     },
     {
       "key": "filter:battle:secret-action",

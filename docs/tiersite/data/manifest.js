@@ -1,5 +1,5 @@
 window.TFTCG_TIER_SITE_MANIFEST = {
-  "generatedAt": "2026-06-16T20:34:12.990708+00:00",
+  "generatedAt": "2026-06-16T20:58:54.762843+00:00",
   "defaultSetId": "wave-10",
   "sets": [
     {
@@ -12,10 +12,10 @@ window.TFTCG_TIER_SITE_MANIFEST = {
         "Wave 1"
       ],
       "asset": "data/set.wave-1.js",
-      "cardCount": 152,
-      "characterCount": 58,
+      "cardCount": 137,
+      "characterCount": 51,
       "stratagemCount": 0,
-      "battleCardCount": 94
+      "battleCardCount": 86
     },
     {
       "id": "wave-2",
@@ -27,8 +27,8 @@ window.TFTCG_TIER_SITE_MANIFEST = {
         "Wave 2"
       ],
       "asset": "data/set.wave-2.js",
-      "cardCount": 151,
-      "characterCount": 65,
+      "cardCount": 150,
+      "characterCount": 64,
       "stratagemCount": 0,
       "battleCardCount": 86
     },
@@ -42,10 +42,10 @@ window.TFTCG_TIER_SITE_MANIFEST = {
         "Wave 3"
       ],
       "asset": "data/set.wave-3.js",
-      "cardCount": 151,
-      "characterCount": 73,
+      "cardCount": 132,
+      "characterCount": 61,
       "stratagemCount": 0,
-      "battleCardCount": 78
+      "battleCardCount": 71
     },
     {
       "id": "wave-4",
@@ -87,10 +87,10 @@ window.TFTCG_TIER_SITE_MANIFEST = {
         "Wave 6"
       ],
       "asset": "data/set.wave-6.js",
-      "cardCount": 131,
-      "characterCount": 32,
+      "cardCount": 128,
+      "characterCount": 31,
       "stratagemCount": 35,
-      "battleCardCount": 64
+      "battleCardCount": 62
     },
     {
       "id": "wave-7",

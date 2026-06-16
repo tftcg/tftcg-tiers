@@ -23,3 +23,9 @@ Drop "Continuation" from the title.
 Switch to A, B, C, D, E, F tiers.
 
 Copy the images into the docs site and serve from within the repository for now rather than using a relative local url.
+
+Filter out promo cards when there is already a card with the same full name. These are cards whose numbers begin with P (battle cards) or TP (characters).
+
+List which promo cards were found and deleted.
+
+Wave 1 also had the Energon Edition cards. These do not have the promo style of number but instead are repeating the numbers again. They start on line 2980 of Sets/e6019a01-01af-405a-a077-981fc79b52fb/set.xml and continue until line 3237. Identify a way to filter these out.

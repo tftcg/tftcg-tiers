@@ -30,6 +30,7 @@ That rebuilds:
 
 - Set switching maps directly to TFTCG waves and related sets such as `Outlier 1`.
 - `Wave 10A` is merged into `Wave 10`, so it shares the same tier list instead of appearing as its own wave.
+- Duplicate in-wave reprints are dropped during generation, including promo reprints and the repeated Wave 1 Energon Edition block.
 - Characters, Stratagems, and Battle Cards each have their own tier state.
 - Character and Stratagem flip sides persist per card within a wave.
 - Character tabs are generated from common factions and traits in that wave.

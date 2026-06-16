@@ -10,8 +10,8 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
       "Wave 2"
     ],
     "asset": "data/set.wave-2.js",
-    "cardCount": 151,
-    "characterCount": 65,
+    "cardCount": 150,
+    "characterCount": 64,
     "stratagemCount": 0,
     "battleCardCount": 86
   },
@@ -5878,62 +5878,6 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
           "text": ""
         }
       ]
-    },
-    {
-      "id": "66d7a1eb-7034-4c94-a28b-5a7fb26a1895",
-      "number": "TP5 2019",
-      "name": "Bumblebee, Trusted Lieutenant",
-      "rarity": "Common",
-      "bucket": "characters",
-      "primaryType": "Character - Alt Mode",
-      "battleFilters": [],
-      "factions": [
-        "Autobot"
-      ],
-      "traits": [
-        "Leader",
-        "Car",
-        "Melee",
-        "Ranged"
-      ],
-      "stratagemTarget": "",
-      "modes": [
-        {
-          "label": "Alt",
-          "type": "Character - Alt Mode",
-          "image": "assets/cards/3180d273-e2a2-41fb-9c1d-62b4f9ae894c/66d7a1eb-7034-4c94-a28b-5a7fb26a1895.jpg",
-          "atk": "5",
-          "def": "2",
-          "hp": "14",
-          "stars": "10",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Car",
-            "Melee"
-          ],
-          "text": ""
-        },
-        {
-          "label": "Bot",
-          "type": "Character - Bot Mode",
-          "image": "assets/cards/3180d273-e2a2-41fb-9c1d-62b4f9ae894c/66d7a1eb-7034-4c94-a28b-5a7fb26a1895.Bot.jpg",
-          "atk": "6",
-          "def": "1",
-          "hp": "14",
-          "stars": "",
-          "factions": [
-            "Autobot"
-          ],
-          "traits": [
-            "Leader",
-            "Ranged"
-          ],
-          "text": ""
-        }
-      ]
     }
   ],
   "characterFilters": {
@@ -5952,7 +5896,7 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
         "bucket": "characters",
         "kind": "faction",
         "value": "Autobot",
-        "count": 31
+        "count": 30
       }
     ],
     "traits": [
@@ -5962,7 +5906,7 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Melee",
-        "count": 32
+        "count": 31
       },
       {
         "key": "filter:character:trait:ranged",
@@ -5970,7 +5914,7 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Ranged",
-        "count": 28
+        "count": 27
       },
       {
         "key": "filter:character:trait:plane",
@@ -5986,7 +5930,7 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Car",
-        "count": 14
+        "count": 13
       },
       {
         "key": "filter:character:trait:leader",
@@ -5994,7 +5938,7 @@ window.TFTCG_TIER_SITE_SETS["wave-2"] = {
         "bucket": "characters",
         "kind": "trait",
         "value": "Leader",
-        "count": 11
+        "count": 10
       },
       {
         "key": "filter:character:trait:specialist",

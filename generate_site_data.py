@@ -230,6 +230,67 @@ def unique_in_order(values: list[str]) -> list[str]:
     return ordered
 
 
+def normalized_signature_props(node: ET.Element) -> tuple[tuple[str, str], ...]:
+    return tuple(
+        sorted(
+            (key, normalize_whitespace(value))
+            for key, value in props_for(node).items()
+            if key != "Card Number"
+        )
+    )
+
+
+def card_number_for(card: ET.Element) -> str:
+    return props_for(card).get("Card Number", "")
+
+
+def is_promo_card_number(card_number: str) -> bool:
+    return card_number.startswith("P") or card_number.startswith("TP")
+
+
+def card_content_signature(card: ET.Element) -> tuple[object, ...]:
+    return (
+        card.attrib.get("name", ""),
+        card.attrib.get("size", ""),
+        normalized_signature_props(card),
+        tuple(
+            (
+                alternate.attrib.get("type", ""),
+                alternate.attrib.get("name", ""),
+                alternate.attrib.get("size", ""),
+                normalized_signature_props(alternate),
+            )
+            for alternate in card.findall("alternate")
+        ),
+    )
+
+
+def collect_duplicate_reprint_ids(cards: list[ET.Element]) -> set[str]:
+    duplicate_ids: set[str] = set()
+    seen_signatures: set[tuple[object, ...]] = set()
+    for card in cards:
+        signature = card_content_signature(card)
+        if signature in seen_signatures:
+            duplicate_ids.add(card.attrib["id"])
+            continue
+        seen_signatures.add(signature)
+    return duplicate_ids
+
+
+def collect_duplicate_promo_ids(cards: list[ET.Element]) -> set[str]:
+    names_with_non_promos = {
+        normalize_whitespace(card.attrib.get("name", ""))
+        for card in cards
+        if not is_promo_card_number(card_number_for(card))
+    }
+    return {
+        card.attrib["id"]
+        for card in cards
+        if is_promo_card_number(card_number_for(card))
+        and normalize_whitespace(card.attrib.get("name", "")) in names_with_non_promos
+    }
+
+
 def build_card_entry(card: ET.Element, set_dir_name: str, file_map: dict[str, str]) -> dict | None:
     props = props_for(card)
     primary_type = props.get("Type", "")
@@ -306,6 +367,13 @@ def build_set_payload(set_dirs: list[Path]) -> dict | None:
     entries = []
     source_set_ids = []
     source_set_names = []
+    source_cards = [
+        card
+        for root in roots
+        for card in root.findall("./cards/card")
+    ]
+    duplicate_reprint_ids = collect_duplicate_reprint_ids(source_cards)
+    duplicate_promo_ids = collect_duplicate_promo_ids(source_cards)
     for set_dir, root, raw_set_name in zip(set_dirs, roots, raw_set_names):
         if canonical_set_name(raw_set_name) in SKIP_SET_NAMES:
             continue
@@ -314,6 +382,8 @@ def build_set_payload(set_dirs: list[Path]) -> dict | None:
         source_set_ids.append(root.attrib.get("id", set_dir.name))
         source_set_names.append(raw_set_name)
         for card in root.findall("./cards/card"):
+            if card.attrib["id"] in duplicate_reprint_ids or card.attrib["id"] in duplicate_promo_ids:
+                continue
             entry = build_card_entry(card, set_dir.name, file_map)
             if entry is not None:
                 entries.append(entry)
