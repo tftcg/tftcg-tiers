@@ -33,3 +33,5 @@ Wave 1 also had the Energon Edition cards. These do not have the promo style of 
 Add a third tab level for battle cards that filters "Star Cards", i.e. battle cards with a star cost of 1 or greater.
 
 Remove the "All Battle Cards" option. We already have that. Just have the Star Cards third tab" .
+
+The star card tab should not update the weapon/armor/utility/action etc tab line. That should remain as all battle cards.

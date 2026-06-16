@@ -618,7 +618,7 @@
     const row = document.createElement("div");
     row.className = "tab-row";
     row.appendChild(
-      createCountTabButton("All types", getBattleFilterCount(null, viewState.battleTagFilterKey), !viewState.battleTypeFilterKey, () => {
+      createCountTabButton("All types", getBattleFilterCount(null, null), !viewState.battleTypeFilterKey, () => {
         viewState.battleTypeFilterKey = null;
         saveState();
         render();
@@ -628,7 +628,7 @@
       row.appendChild(
         createCountTabButton(
           view.label,
-          getBattleFilterCount(view.key, viewState.battleTagFilterKey),
+          getBattleFilterCount(view.key, null),
           view.key === viewState.battleTypeFilterKey,
           () => {
             viewState.battleTypeFilterKey = view.key === viewState.battleTypeFilterKey ? null : view.key;
