@@ -15,3 +15,9 @@ And a bit more.
 What's the point of the "Autobots - Deceptions - Neutrals" subtitle?
 
 Make it "Tiers for the Transformers TCG" and change the subtitle of, for example, "Tier for Wave 6." to "Drag cards from the untiered pool into tiers A through F."
+
+Remove the Autobots Decepticons Neutrals.
+
+Drop "Continuation" from the title.
+
+Switch to A, B, C, D, E, F tiers.

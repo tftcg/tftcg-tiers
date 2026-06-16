@@ -1,18 +1,16 @@
 (function () {
-  const TIERS = ["A", "B", "C+", "C", "C-", "D+", "D", "F"];
-  const ROWS = [
-    { type: "single", tier: "A" },
-    { type: "single", tier: "B" },
-    { type: "split", tiers: ["C+", "C"] },
-    { type: "split", tiers: ["C-", "D+"] },
-    { type: "single", tier: "D" },
-    { type: "single", tier: "F" },
-  ];
+  const TIERS = ["A", "B", "C", "D", "E", "F"];
+  const ROWS = TIERS.map((tier) => ({ type: "single", tier }));
   const ZONES = [...TIERS, "pool"];
   const BUCKET_ORDER = ["characters", "stratagems", "battle-cards"];
   const STORAGE_KEY_VERSION = 1;
   const STORAGE_ENTRY_VERSION = 1;
   const EXPORT_VERSION = 1;
+  const LEGACY_ZONE_MIGRATIONS = {
+    "C+": "C",
+    "C-": "D",
+    "D+": "D",
+  };
   const SELECTED_SET_STORAGE_KEY = "tftcg-tier-site-selected-set-v1";
   const ALL_SETS_EXPORT_FILENAME = "tftcg-tier-lists-all-sets.json";
 
@@ -317,7 +315,16 @@
       const nextBucketState = emptyBucketState();
 
       for (const zone of ZONES) {
-        const ids = Array.isArray(sourceBucket?.[zone]) ? sourceBucket[zone] : [];
+        const sourceZones = [zone];
+        for (const [legacyZone, nextZone] of Object.entries(LEGACY_ZONE_MIGRATIONS)) {
+          if (nextZone === zone) {
+            sourceZones.push(legacyZone);
+          }
+        }
+
+        const ids = sourceZones.flatMap((sourceZone) =>
+          Array.isArray(sourceBucket?.[sourceZone]) ? sourceBucket[sourceZone] : []
+        );
         nextBucketState[zone] = ids.filter((id) => {
           if (!validIds.has(id) || seen.has(id)) {
             return false;

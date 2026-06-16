@@ -20,6 +20,7 @@
   --tier-b: linear-gradient(135deg, #8bc8ff, #6d87ff);
   --tier-c: linear-gradient(135deg, #f7e58d, #e8b94d);
   --tier-d: linear-gradient(135deg, #f7b36c, #dc7c43);
+  --tier-e: linear-gradient(135deg, #f39572, #cf6446);
   --tier-f: linear-gradient(135deg, #ff9f9f, #de5656);
 }
 
@@ -398,11 +399,9 @@ h1 {
 
 .tier-badge[data-tier="A"] { background: var(--tier-a); }
 .tier-badge[data-tier="B"] { background: var(--tier-b); }
-.tier-badge[data-tier="C+"],
 .tier-badge[data-tier="C"] { background: var(--tier-c); }
-.tier-badge[data-tier="C-"],
-.tier-badge[data-tier="D+"] { background: var(--tier-d); }
-.tier-badge[data-tier="D"] { background: linear-gradient(135deg, #ffcd7d, #f29c56); }
+.tier-badge[data-tier="D"] { background: var(--tier-d); }
+.tier-badge[data-tier="E"] { background: var(--tier-e); }
 .tier-badge[data-tier="F"] { background: var(--tier-f); }
 
 .tier-badge-split {
