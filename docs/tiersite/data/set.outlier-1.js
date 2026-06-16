@@ -26,6 +26,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -54,6 +55,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -82,6 +84,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -110,6 +113,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -138,6 +142,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -166,6 +171,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -194,6 +200,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -222,6 +229,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -250,6 +258,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -276,6 +285,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "All Characters",
@@ -314,6 +324,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 25,
       "factions": [
         "Unicronian"
       ],
@@ -364,6 +375,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 10,
       "factions": [
         "Decepticon"
       ],
@@ -420,6 +432,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "characters",
       "primaryType": "Character - Bot Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Decepticon"
       ],
@@ -456,6 +469,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 10,
       "factions": [
         "Decepticon"
       ],
@@ -512,6 +526,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 15,
       "factions": [
         "Decepticon"
       ],
@@ -601,7 +616,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       }
     ]
   },
-  "battleFilters": [
+  "battleTypeFilters": [
     {
       "key": "filter:battle:weapon",
       "label": "Weapon",
@@ -634,5 +649,6 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
       "value": "Secret Action",
       "count": 1
     }
-  ]
+  ],
+  "battleTagFilters": []
 };

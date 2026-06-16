@@ -26,6 +26,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -54,6 +55,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -82,6 +84,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -110,6 +113,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -138,6 +142,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -166,6 +171,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -194,6 +200,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -223,6 +230,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
         "Weapon",
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -251,6 +259,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -279,6 +288,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -307,6 +317,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [
         "Decepticon"
       ],
@@ -339,6 +350,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -367,6 +379,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [
         "Autobot"
       ],
@@ -399,6 +412,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -427,6 +441,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [
         "Decepticon"
       ],
@@ -459,6 +474,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -487,6 +503,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -515,6 +532,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -543,6 +561,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -571,6 +590,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -599,6 +619,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -627,6 +648,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -655,6 +677,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -683,6 +706,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -711,6 +735,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -739,6 +764,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -767,6 +793,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -795,6 +822,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -823,6 +851,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -851,6 +880,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -879,6 +909,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -907,6 +938,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -935,6 +967,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -963,6 +996,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -991,6 +1025,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1019,6 +1054,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1047,6 +1083,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 1,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1075,6 +1112,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [
         "Decepticon"
       ],
@@ -1107,6 +1145,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1135,6 +1174,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1163,6 +1203,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1191,6 +1232,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1219,6 +1261,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1247,6 +1290,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1275,6 +1319,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1303,6 +1348,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1331,6 +1377,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1359,6 +1406,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1387,6 +1435,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1415,6 +1464,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1443,6 +1493,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1471,6 +1522,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Weapon"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1499,6 +1551,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1527,6 +1580,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1555,6 +1609,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1583,6 +1638,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1611,6 +1667,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1639,6 +1696,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1667,6 +1725,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Secret Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1695,6 +1754,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Utility"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1723,6 +1783,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1751,6 +1812,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Armor"
       ],
+      "starCost": 0,
       "factions": [
         "Autobot"
       ],
@@ -1783,6 +1845,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [
         "Autobot"
       ],
@@ -1815,6 +1878,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "battleFilters": [
         "Action"
       ],
+      "starCost": 0,
       "factions": [],
       "traits": [],
       "stratagemTarget": "",
@@ -1841,6 +1905,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -1883,6 +1948,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -1925,6 +1991,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -1967,6 +2034,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2009,6 +2077,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2051,6 +2120,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2093,6 +2163,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Autobot"
       ],
@@ -2135,6 +2206,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2177,6 +2249,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2219,6 +2292,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2261,6 +2335,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2303,6 +2378,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2345,6 +2421,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2387,6 +2464,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [],
       "traits": [],
       "stratagemTarget": "Weaponizer",
@@ -2425,6 +2503,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2467,6 +2546,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2509,6 +2589,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2551,6 +2632,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Decepticon"
       ],
@@ -2593,6 +2675,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2635,6 +2718,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2677,6 +2761,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2719,6 +2804,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2761,6 +2847,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2803,6 +2890,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2845,6 +2933,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [],
       "traits": [],
       "stratagemTarget": "Titan Master",
@@ -2883,6 +2972,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -2925,6 +3015,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -2967,6 +3058,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -3009,6 +3101,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -3051,6 +3144,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "stratagems",
       "primaryType": "Stratagem",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -3093,6 +3187,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Autobot"
       ],
@@ -3143,6 +3238,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 14,
       "factions": [
         "Autobot"
       ],
@@ -3196,6 +3292,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Autobot"
       ],
@@ -3248,6 +3345,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Autobot"
       ],
@@ -3296,6 +3394,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Autobot"
       ],
@@ -3348,6 +3447,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Autobot"
       ],
@@ -3398,6 +3498,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 6,
       "factions": [
         "Autobot"
       ],
@@ -3451,6 +3552,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Autobot"
       ],
@@ -3501,6 +3603,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Autobot"
       ],
@@ -3551,6 +3654,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 12,
       "factions": [
         "Autobot"
       ],
@@ -3606,6 +3710,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 6,
       "factions": [
         "Autobot"
       ],
@@ -3658,6 +3763,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 11,
       "factions": [
         "Decepticon"
       ],
@@ -3711,6 +3817,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Autobot"
       ],
@@ -3763,6 +3870,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 5,
       "factions": [
         "Autobot"
       ],
@@ -3815,6 +3923,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Decepticon"
       ],
@@ -3865,6 +3974,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Decepticon"
       ],
@@ -3915,6 +4025,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Autobot"
       ],
@@ -3967,6 +4078,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Autobot"
       ],
@@ -4019,6 +4131,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Decepticon"
       ],
@@ -4072,6 +4185,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Decepticon"
       ],
@@ -4124,6 +4238,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Decepticon"
       ],
@@ -4176,6 +4291,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Decepticon"
       ],
@@ -4226,6 +4342,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 6,
       "factions": [
         "Decepticon"
       ],
@@ -4278,6 +4395,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Autobot"
       ],
@@ -4328,6 +4446,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Autobot"
       ],
@@ -4378,6 +4497,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Autobot"
       ],
@@ -4428,6 +4548,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Decepticon"
       ],
@@ -4478,6 +4599,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 6,
       "factions": [
         "Decepticon"
       ],
@@ -4530,6 +4652,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -4580,6 +4703,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 11,
       "factions": [
         "Decepticon"
       ],
@@ -4635,6 +4759,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Decepticon"
       ],
@@ -4686,6 +4811,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 2,
       "factions": [
         "Decepticon"
       ],
@@ -4736,6 +4862,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 5,
       "factions": [
         "Decepticon"
       ],
@@ -4788,6 +4915,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 3,
       "factions": [
         "Decepticon"
       ],
@@ -4838,6 +4966,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 12,
       "factions": [
         "Autobot"
       ],
@@ -4894,6 +5023,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Autobot"
       ],
@@ -4944,6 +5074,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 11,
       "factions": [
         "Autobot"
       ],
@@ -4997,6 +5128,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Autobot"
       ],
@@ -5055,6 +5187,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 11,
       "factions": [
         "Decepticon"
       ],
@@ -5107,6 +5240,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Decepticon"
       ],
@@ -5143,6 +5277,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Decepticon"
       ],
@@ -5179,6 +5314,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Autobot"
       ],
@@ -5234,6 +5370,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Autobot"
       ],
@@ -5286,6 +5423,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Autobot"
       ],
@@ -5341,6 +5479,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 1,
       "factions": [
         "Decepticon"
       ],
@@ -5391,6 +5530,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 7,
       "factions": [
         "Autobot"
       ],
@@ -5443,6 +5583,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 10,
       "factions": [
         "Decepticon"
       ],
@@ -5496,6 +5637,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Decepticon"
       ],
@@ -5548,6 +5690,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 9,
       "factions": [
         "Decepticon"
       ],
@@ -5600,6 +5743,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Combiner Body Mode",
       "battleFilters": [],
+      "starCost": 14,
       "factions": [
         "Decepticon"
       ],
@@ -5634,6 +5778,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Combiner Mode",
       "battleFilters": [],
+      "starCost": 24,
       "factions": [
         "Decepticon"
       ],
@@ -5668,6 +5813,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Decepticon"
       ],
@@ -5718,6 +5864,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Decepticon"
       ],
@@ -5754,6 +5901,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Decepticon"
       ],
@@ -5790,6 +5938,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Decepticon"
       ],
@@ -5826,6 +5975,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Head Mode",
       "battleFilters": [],
+      "starCost": 4,
       "factions": [
         "Autobot"
       ],
@@ -5876,6 +6026,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "bucket": "characters",
       "primaryType": "Character - Alt Mode",
       "battleFilters": [],
+      "starCost": 8,
       "factions": [
         "Autobot"
       ],
@@ -6041,7 +6192,7 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       }
     ]
   },
-  "battleFilters": [
+  "battleTypeFilters": [
     {
       "key": "filter:battle:weapon",
       "label": "Weapon",
@@ -6081,6 +6232,16 @@ window.TFTCG_TIER_SITE_SETS["wave-5"] = {
       "kind": "battle",
       "value": "Secret Action",
       "count": 11
+    }
+  ],
+  "battleTagFilters": [
+    {
+      "key": "filter:battle-tag:star-cards",
+      "label": "Star Cards",
+      "bucket": "battle-cards",
+      "kind": "battle-tag",
+      "value": "star-cards",
+      "count": 1
     }
   ]
 };

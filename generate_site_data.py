@@ -133,6 +133,13 @@ def extract_battle_filters(type_name: str) -> list[str]:
     return filters
 
 
+def parse_star_cost(value: str) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
+
+
 def mode_label_for(type_name: str, *, has_alternates: bool, is_primary: bool) -> str:
     if type_name == "Stratagem" and has_alternates:
         return "Front" if is_primary else "Back"
@@ -336,6 +343,7 @@ def build_card_entry(card: ET.Element, set_dir_name: str, file_map: dict[str, st
         "bucket": bucket,
         "primaryType": primary_type,
         "battleFilters": extract_battle_filters(primary_type),
+        "starCost": parse_star_cost(props.get("Stars", "0")),
         "factions": factions,
         "traits": traits,
         "stratagemTarget": props.get("Stratagem Target", ""),
@@ -415,6 +423,19 @@ def build_set_payload(set_dirs: list[Path]) -> dict | None:
                     "count": count,
                 }
             )
+    battle_tag_views = []
+    star_card_count = sum(1 for card in battle_cards if card["starCost"] >= 1)
+    if star_card_count:
+        battle_tag_views.append(
+            {
+                "key": "filter:battle-tag:star-cards",
+                "label": "Star Cards",
+                "bucket": "battle-cards",
+                "kind": "battle-tag",
+                "value": "star-cards",
+                "count": star_card_count,
+            }
+        )
 
     faction_views = [
         {
@@ -456,7 +477,8 @@ def build_set_payload(set_dirs: list[Path]) -> dict | None:
             "factions": faction_views,
             "traits": trait_views,
         },
-        "battleFilters": battle_views,
+        "battleTypeFilters": battle_views,
+        "battleTagFilters": battle_tag_views,
     }
 
 

@@ -4,8 +4,8 @@
   const ZONES = [...TIERS, "pool"];
   const BUCKET_ORDER = ["characters", "stratagems", "battle-cards"];
   const STORAGE_KEY_VERSION = 1;
-  const STORAGE_ENTRY_VERSION = 1;
-  const EXPORT_VERSION = 1;
+  const STORAGE_ENTRY_VERSION = 2;
+  const EXPORT_VERSION = 2;
   const LEGACY_ZONE_MIGRATIONS = {
     "C+": "C",
     "C-": "D",
@@ -31,7 +31,7 @@
 
   let currentSetMeta = null;
   let currentRuntime = null;
-  let activeViewKey = "bucket:characters";
+  let viewState = null;
   let state = null;
   let statusTimeoutId = null;
   let loadRequestToken = 0;
@@ -219,12 +219,18 @@
       { key: "bucket:battle-cards", label: "Battle Cards", type: "bucket", bucket: "battle-cards" },
     ];
     const characterFilters = payload?.characterFilters || { factions: [], traits: [] };
-    const battleFilters = Array.isArray(payload?.battleFilters) ? payload.battleFilters.slice() : [];
+    const battleTypeFilters = Array.isArray(payload?.battleTypeFilters)
+      ? payload.battleTypeFilters.slice()
+      : Array.isArray(payload?.battleFilters)
+        ? payload.battleFilters.slice()
+        : [];
+    const battleTagFilters = Array.isArray(payload?.battleTagFilters) ? payload.battleTagFilters.slice() : [];
     const viewDefs = [
       ...primaryViews,
       ...characterFilters.factions.map((view) => ({ ...view, type: "filter" })),
       ...characterFilters.traits.map((view) => ({ ...view, type: "filter" })),
-      ...battleFilters.map((view) => ({ ...view, type: "filter" })),
+      ...battleTypeFilters.map((view) => ({ ...view, type: "filter" })),
+      ...battleTagFilters.map((view) => ({ ...view, type: "filter" })),
     ];
 
     return {
@@ -235,14 +241,15 @@
       cardsByBucket,
       primaryViews,
       characterFilters,
-      battleFilters,
+      battleTypeFilters,
+      battleTagFilters,
       viewDefs,
     };
   }
 
   function initializeRuntime(runtime) {
     const persisted = loadPersistedState(runtime.meta.id);
-    activeViewKey = isValidViewKeyFor(runtime, persisted.activeViewKey) ? persisted.activeViewKey : "bucket:characters";
+    viewState = normalizeViewStateFor(runtime, persisted.viewState, persisted.activeViewKey);
     state = normalizeStateFor(runtime, persisted.state);
   }
 
@@ -254,36 +261,100 @@
     try {
       const raw = localStorage.getItem(getStorageKeyFor(setId));
       if (!raw) {
-        return { state: null, activeViewKey: null };
+        return { state: null, activeViewKey: null, viewState: null };
       }
       const parsed = JSON.parse(raw);
       return {
         state: parsed?.state || null,
         activeViewKey: typeof parsed?.activeViewKey === "string" ? parsed.activeViewKey : null,
+        viewState: isPlainObject(parsed?.viewState) ? parsed.viewState : null,
       };
     } catch {
-      return { state: null, activeViewKey: null };
+      return { state: null, activeViewKey: null, viewState: null };
     }
   }
 
-  function saveSetState(setId, nextActiveViewKey, nextState) {
+  function saveSetState(setId, nextViewState, nextState) {
     localStorage.setItem(
       getStorageKeyFor(setId),
       JSON.stringify({
         version: STORAGE_ENTRY_VERSION,
         setId,
-        activeViewKey: nextActiveViewKey,
+        activeViewKey: getLegacyActiveViewKey(nextViewState),
+        viewState: nextViewState,
         state: nextState,
       })
     );
   }
 
   function saveState() {
-    saveSetState(currentSetMeta.id, activeViewKey, state);
+    saveSetState(currentSetMeta.id, viewState, state);
   }
 
   function emptyBucketState() {
     return Object.fromEntries(ZONES.map((zone) => [zone, []]));
+  }
+
+  function createDefaultViewState() {
+    return {
+      activeBucketKey: "bucket:characters",
+      characterFilterKey: null,
+      battleTypeFilterKey: null,
+      battleTagFilterKey: null,
+    };
+  }
+
+  function getViewByKey(runtime, viewKey) {
+    return runtime.viewDefs.find((view) => view.key === viewKey) || null;
+  }
+
+  function normalizeViewStateFor(runtime, rawViewState, legacyActiveViewKey = null) {
+    const normalized = createDefaultViewState();
+
+    if (isPlainObject(rawViewState)) {
+      if (isPrimaryBucketViewKeyFor(runtime, rawViewState.activeBucketKey)) {
+        normalized.activeBucketKey = rawViewState.activeBucketKey;
+      }
+      if (isValidCharacterFilterKeyFor(runtime, rawViewState.characterFilterKey)) {
+        normalized.characterFilterKey = rawViewState.characterFilterKey;
+      }
+      if (isValidBattleTypeFilterKeyFor(runtime, rawViewState.battleTypeFilterKey)) {
+        normalized.battleTypeFilterKey = rawViewState.battleTypeFilterKey;
+      }
+      if (isValidBattleTagFilterKeyFor(runtime, rawViewState.battleTagFilterKey)) {
+        normalized.battleTagFilterKey = rawViewState.battleTagFilterKey;
+      }
+      return normalized;
+    }
+
+    if (!isValidViewKeyFor(runtime, legacyActiveViewKey)) {
+      return normalized;
+    }
+
+    const legacyView = getViewByKey(runtime, legacyActiveViewKey);
+    if (!legacyView) {
+      return normalized;
+    }
+
+    normalized.activeBucketKey = `bucket:${legacyView.bucket}`;
+    if (legacyView.kind === "faction" || legacyView.kind === "trait") {
+      normalized.characterFilterKey = legacyView.key;
+    } else if (legacyView.kind === "battle") {
+      normalized.battleTypeFilterKey = legacyView.key;
+    } else if (legacyView.kind === "battle-tag") {
+      normalized.battleTagFilterKey = legacyView.key;
+    }
+    return normalized;
+  }
+
+  function getLegacyActiveViewKey(nextViewState) {
+    if (nextViewState.activeBucketKey === "bucket:characters" && nextViewState.characterFilterKey) {
+      return nextViewState.characterFilterKey;
+    }
+    if (nextViewState.activeBucketKey === "bucket:battle-cards") {
+      return nextViewState.battleTagFilterKey || nextViewState.battleTypeFilterKey || nextViewState.activeBucketKey;
+    }
+    return nextViewState.activeBucketKey;
   }
 
   function createDefaultStateFor(runtime) {
@@ -386,10 +457,12 @@
       for (const setMeta of manifest.sets) {
         const runtime = await getRuntimeForSet(setMeta.id);
         const persisted = loadPersistedState(setMeta.id);
+        const nextViewState = normalizeViewStateFor(runtime, persisted.viewState, persisted.activeViewKey);
         payload.sets[setMeta.id] = {
           setId: setMeta.id,
           setName: runtime.meta.name,
-          activeViewKey: isValidViewKeyFor(runtime, persisted.activeViewKey) ? persisted.activeViewKey : "bucket:characters",
+          activeViewKey: getLegacyActiveViewKey(nextViewState),
+          viewState: nextViewState,
           state: normalizeStateFor(runtime, persisted.state),
         };
       }
@@ -434,9 +507,9 @@
           continue;
         }
         const runtime = await getRuntimeForSet(setId);
-        const nextActiveViewKey = isValidViewKeyFor(runtime, entry.activeViewKey) ? entry.activeViewKey : "bucket:characters";
+        const nextViewState = normalizeViewStateFor(runtime, entry.viewState, entry.activeViewKey);
         const nextState = normalizeStateFor(runtime, entry.state);
-        saveSetState(setId, nextActiveViewKey, nextState);
+        saveSetState(setId, nextViewState, nextState);
         importedSetIds.push(setId);
       }
 
@@ -487,7 +560,7 @@
 
   function renderTabs() {
     tabsRoot.replaceChildren();
-    const activeView = getActiveView();
+    const activeBucketView = getActiveBucketView();
 
     const primarySection = document.createElement("section");
     primarySection.className = "tab-section";
@@ -495,20 +568,25 @@
     const primaryRow = document.createElement("div");
     primaryRow.className = "tab-row";
     for (const view of currentRuntime.primaryViews) {
-      primaryRow.appendChild(createTabButton(view, activeView.bucket === view.bucket));
+      primaryRow.appendChild(
+        createCountTabButton(view.label, getViewCardCount(view), activeBucketView.key === view.key, () => {
+          setActiveBucket(view.key);
+        })
+      );
     }
     primarySection.appendChild(primaryRow);
     tabsRoot.appendChild(primarySection);
 
-    if (activeView.bucket === "characters") {
-      appendFilterSection("Factions", currentRuntime.characterFilters.factions);
-      appendFilterSection("Traits", currentRuntime.characterFilters.traits);
-    } else if (activeView.bucket === "battle-cards") {
-      appendFilterSection("Battle card types", currentRuntime.battleFilters);
+    if (activeBucketView.bucket === "characters") {
+      appendCharacterFilterSection("Factions", currentRuntime.characterFilters.factions);
+      appendCharacterFilterSection("Traits", currentRuntime.characterFilters.traits);
+    } else if (activeBucketView.bucket === "battle-cards") {
+      appendBattleTypeSection();
+      appendBattleTagSection();
     }
   }
 
-  function appendFilterSection(label, views) {
+  function appendCharacterFilterSection(label, views) {
     if (!Array.isArray(views) || !views.length) {
       return;
     }
@@ -518,7 +596,81 @@
     const row = document.createElement("div");
     row.className = "tab-row";
     for (const view of views) {
-      row.appendChild(createTabButton(view, view.key === activeViewKey));
+      row.appendChild(
+        createCountTabButton(view.label, getViewCardCount(view), view.key === viewState.characterFilterKey, () => {
+          viewState.characterFilterKey = view.key === viewState.characterFilterKey ? null : view.key;
+          saveState();
+          render();
+        })
+      );
+    }
+    section.appendChild(row);
+    tabsRoot.appendChild(section);
+  }
+
+  function appendBattleTypeSection() {
+    if (!currentRuntime.battleTypeFilters.length) {
+      return;
+    }
+    const section = document.createElement("section");
+    section.className = "tab-section";
+    section.appendChild(createTabSectionLabel("Battle card types"));
+    const row = document.createElement("div");
+    row.className = "tab-row";
+    row.appendChild(
+      createCountTabButton("All types", getBattleFilterCount(null, viewState.battleTagFilterKey), !viewState.battleTypeFilterKey, () => {
+        viewState.battleTypeFilterKey = null;
+        saveState();
+        render();
+      })
+    );
+    for (const view of currentRuntime.battleTypeFilters) {
+      row.appendChild(
+        createCountTabButton(
+          view.label,
+          getBattleFilterCount(view.key, viewState.battleTagFilterKey),
+          view.key === viewState.battleTypeFilterKey,
+          () => {
+            viewState.battleTypeFilterKey = view.key === viewState.battleTypeFilterKey ? null : view.key;
+            saveState();
+            render();
+          }
+        )
+      );
+    }
+    section.appendChild(row);
+    tabsRoot.appendChild(section);
+  }
+
+  function appendBattleTagSection() {
+    if (!currentRuntime.battleTagFilters.length) {
+      return;
+    }
+    const section = document.createElement("section");
+    section.className = "tab-section";
+    section.appendChild(createTabSectionLabel("Star cost"));
+    const row = document.createElement("div");
+    row.className = "tab-row";
+    row.appendChild(
+      createCountTabButton("All battle cards", getBattleFilterCount(viewState.battleTypeFilterKey, null), !viewState.battleTagFilterKey, () => {
+        viewState.battleTagFilterKey = null;
+        saveState();
+        render();
+      })
+    );
+    for (const view of currentRuntime.battleTagFilters) {
+      row.appendChild(
+        createCountTabButton(
+          view.label,
+          getBattleFilterCount(viewState.battleTypeFilterKey, view.key),
+          view.key === viewState.battleTagFilterKey,
+          () => {
+            viewState.battleTagFilterKey = view.key === viewState.battleTagFilterKey ? null : view.key;
+            saveState();
+            render();
+          }
+        )
+      );
     }
     section.appendChild(row);
     tabsRoot.appendChild(section);
@@ -531,31 +683,27 @@
     return node;
   }
 
-  function createTabButton(view, isActive) {
+  function createCountTabButton(label, countValue, isActive, onClick) {
     const button = document.createElement("button");
     const count = document.createElement("span");
     button.type = "button";
     button.className = isActive ? "tab-button active" : "tab-button";
-    button.append(getTabLabel(view));
-    count.textContent = `(${getViewCardCount(view)})`;
+    button.append(label);
+    count.textContent = `(${countValue})`;
     button.appendChild(count);
-    button.addEventListener("click", () => {
-      activeViewKey = view.key;
-      saveState();
-      render();
-    });
+    button.addEventListener("click", onClick);
     return button;
   }
 
   function renderActiveBucket() {
-    const view = getActiveView();
-    const visibleState = getVisibleState(view);
-    const viewCount = getViewCardCount(view);
+    const view = getActiveBucketView();
+    const visibleState = getVisibleState();
+    const viewCount = getActiveViewCardCount();
 
     const meta = document.createElement("section");
     meta.className = "tab-meta";
     meta.append(
-      createMetaText(`Showing `, createStrongText(viewCount), ` card${viewCount === 1 ? "" : "s"} in `, createStrongText(getTabLabel(view)), "."),
+      createMetaText(`Showing `, createStrongText(viewCount), ` card${viewCount === 1 ? "" : "s"} in `, createStrongText(getActiveViewLabel()), "."),
       createMetaText("Click a multi-sided card to cycle its modes."),
       createMetaText("Hover a thumbnail to magnify it, then drag it into place.")
     );
@@ -893,13 +1041,13 @@
   }
 
   function syncStateFromDom() {
-    const view = getActiveView();
-    if (view.type === "filter") {
-      syncFilterViewState(view);
+    const bucketView = getActiveBucketView();
+    if (hasActiveBucketFilters()) {
+      syncFilteredBucketState(bucketView.bucket);
       return;
     }
 
-    const bucket = view.bucket;
+    const bucket = bucketView.bucket;
     const nextBucketState = emptyBucketState();
     const validIds = new Set(currentRuntime.cardsByBucket[bucket].map((card) => card.id));
     document.querySelectorAll(".card-track").forEach((track) => {
@@ -919,9 +1067,8 @@
     state.buckets[bucket] = nextBucketState;
   }
 
-  function syncFilterViewState(view) {
-    const bucket = view.bucket;
-    const filteredIds = new Set(getViewCards(view).map((card) => card.id));
+  function syncFilteredBucketState(bucket) {
+    const filteredIds = new Set(getActiveViewCards().map((card) => card.id));
     const nextBucketState = {};
     for (const zone of ZONES) {
       nextBucketState[zone] = state.buckets[bucket][zone].filter((id) => !filteredIds.has(id));
@@ -940,7 +1087,7 @@
     });
 
     const missing = currentRuntime.cardsByBucket[bucket]
-      .filter((card) => cardMatchesView(view, card))
+      .filter((card) => cardMatchesCurrentView(card))
       .map((card) => card.id)
       .filter((id) => !assigned.has(id))
       .sort((left, right) => currentRuntime.cardOrderIndex[left] - currentRuntime.cardOrderIndex[right]);
@@ -998,27 +1145,51 @@
     return rows[targetRowIndex + 1]?.items[0]?.card ?? null;
   }
 
-  function getActiveView() {
-    return currentRuntime.viewDefs.find((view) => view.key === activeViewKey) || currentRuntime.primaryViews[0];
+  function setActiveBucket(bucketKey) {
+    viewState.activeBucketKey = bucketKey;
+    viewState.characterFilterKey = null;
+    viewState.battleTypeFilterKey = null;
+    viewState.battleTagFilterKey = null;
+    saveState();
+    render();
+  }
+
+  function getActiveBucketView() {
+    return getViewByKey(currentRuntime, viewState.activeBucketKey) || currentRuntime.primaryViews[0];
+  }
+
+  function getActiveCharacterFilterView() {
+    return getViewByKey(currentRuntime, viewState.characterFilterKey);
+  }
+
+  function getActiveBattleTypeFilterView() {
+    return getViewByKey(currentRuntime, viewState.battleTypeFilterKey);
+  }
+
+  function getActiveBattleTagFilterView() {
+    return getViewByKey(currentRuntime, viewState.battleTagFilterKey);
   }
 
   function getViewCards(view) {
     if (view.type === "bucket") {
       return currentRuntime.cardsByBucket[view.bucket] || [];
     }
-    return (currentRuntime.cardsByBucket[view.bucket] || []).filter((card) => cardMatchesView(view, card));
+    return (currentRuntime.cardsByBucket[view.bucket] || []).filter((card) => cardMatchesSingleView(view, card));
   }
 
   function getViewCardCount(view) {
     return getViewCards(view).length;
   }
 
-  function cardMatchesView(view, card) {
+  function cardMatchesSingleView(view, card) {
     if (view.type === "bucket") {
       return card.bucket === view.bucket;
     }
     if (view.kind === "battle") {
       return card.battleFilters.includes(view.value);
+    }
+    if (view.kind === "battle-tag") {
+      return view.value === "star-cards" ? Number(card.starCost || 0) >= 1 : false;
     }
     if (view.kind === "faction") {
       return card.factions.includes(view.value);
@@ -1029,12 +1200,46 @@
     return false;
   }
 
-  function getVisibleState(view) {
+  function cardMatchesCurrentView(card) {
+    const activeBucketView = getActiveBucketView();
+    if (card.bucket !== activeBucketView.bucket) {
+      return false;
+    }
+
+    if (activeBucketView.bucket === "characters") {
+      const activeCharacterFilterView = getActiveCharacterFilterView();
+      return activeCharacterFilterView ? cardMatchesSingleView(activeCharacterFilterView, card) : true;
+    }
+
+    if (activeBucketView.bucket === "battle-cards") {
+      const activeBattleTypeFilterView = getActiveBattleTypeFilterView();
+      const activeBattleTagFilterView = getActiveBattleTagFilterView();
+      if (activeBattleTypeFilterView && !cardMatchesSingleView(activeBattleTypeFilterView, card)) {
+        return false;
+      }
+      if (activeBattleTagFilterView && !cardMatchesSingleView(activeBattleTagFilterView, card)) {
+        return false;
+      }
+      return true;
+    }
+
+    return true;
+  }
+
+  function getActiveViewCards() {
+    return (currentRuntime.cardsByBucket[getActiveBucketView().bucket] || []).filter((card) => cardMatchesCurrentView(card));
+  }
+
+  function getActiveViewCardCount() {
+    return getActiveViewCards().length;
+  }
+
+  function getVisibleState() {
     const visibleState = emptyBucketState();
-    const bucketState = state.buckets[view.bucket];
+    const bucketState = state.buckets[getActiveBucketView().bucket];
     for (const zone of ZONES) {
       for (const id of bucketState[zone]) {
-        if (cardMatchesView(view, currentRuntime.cardsById[id])) {
+        if (cardMatchesCurrentView(currentRuntime.cardsById[id])) {
           visibleState[zone].push(id);
         }
       }
@@ -1042,17 +1247,48 @@
     return visibleState;
   }
 
-  function getTabLabel(view) {
-    if (view.type === "bucket") {
-      return view.label;
+  function hasActiveBucketFilters() {
+    const activeBucketView = getActiveBucketView();
+    if (activeBucketView.bucket === "characters") {
+      return Boolean(viewState.characterFilterKey);
     }
-    if (view.kind === "faction") {
-      return view.label;
+    if (activeBucketView.bucket === "battle-cards") {
+      return Boolean(viewState.battleTypeFilterKey || viewState.battleTagFilterKey);
     }
-    if (view.kind === "trait") {
-      return view.label;
+    return false;
+  }
+
+  function getActiveViewLabel() {
+    const activeBucketView = getActiveBucketView();
+    if (activeBucketView.bucket === "characters") {
+      return getActiveCharacterFilterView()?.label || activeBucketView.label;
     }
-    return view.label;
+    if (activeBucketView.bucket === "battle-cards") {
+      const labels = [activeBucketView.label];
+      if (getActiveBattleTypeFilterView()) {
+        labels.push(getActiveBattleTypeFilterView().label);
+      }
+      if (getActiveBattleTagFilterView()) {
+        labels.push(getActiveBattleTagFilterView().label);
+      }
+      return labels.join(" / ");
+    }
+    return activeBucketView.label;
+  }
+
+  function getBattleFilterCount(typeFilterKey, tagFilterKey) {
+    const cards = currentRuntime.cardsByBucket["battle-cards"] || [];
+    const typeView = getViewByKey(currentRuntime, typeFilterKey);
+    const tagView = getViewByKey(currentRuntime, tagFilterKey);
+    return cards.filter((card) => {
+      if (typeView && !cardMatchesSingleView(typeView, card)) {
+        return false;
+      }
+      if (tagView && !cardMatchesSingleView(tagView, card)) {
+        return false;
+      }
+      return true;
+    }).length;
   }
 
   function createMetaText(...parts) {
@@ -1071,5 +1307,22 @@
 
   function isValidViewKeyFor(runtime, viewKey) {
     return typeof viewKey === "string" && runtime.viewDefs.some((view) => view.key === viewKey);
+  }
+
+  function isPrimaryBucketViewKeyFor(runtime, viewKey) {
+    return typeof viewKey === "string" && runtime.primaryViews.some((view) => view.key === viewKey);
+  }
+
+  function isValidCharacterFilterKeyFor(runtime, viewKey) {
+    const view = getViewByKey(runtime, viewKey);
+    return Boolean(view && (view.kind === "faction" || view.kind === "trait"));
+  }
+
+  function isValidBattleTypeFilterKeyFor(runtime, viewKey) {
+    return Boolean(getViewByKey(runtime, viewKey)?.kind === "battle");
+  }
+
+  function isValidBattleTagFilterKeyFor(runtime, viewKey) {
+    return Boolean(getViewByKey(runtime, viewKey)?.kind === "battle-tag");
   }
 })();

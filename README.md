@@ -35,3 +35,4 @@ That rebuilds:
 - Character and Stratagem flip sides persist per card within a wave.
 - Character tabs are generated from common factions and traits in that wave.
 - Battle Card tabs cover Weapon, Armor, Utility, Action, Secret Action, and Rolling Action.
+- Battle Cards also include a Star Cards filter for battle cards with a star cost of 1 or more.

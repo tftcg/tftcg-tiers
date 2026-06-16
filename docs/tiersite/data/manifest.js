@@ -1,5 +1,5 @@
 window.TFTCG_TIER_SITE_MANIFEST = {
-  "generatedAt": "2026-06-16T20:58:54.762843+00:00",
+  "generatedAt": "2026-06-16T21:11:40.632211+00:00",
   "defaultSetId": "wave-10",
   "sets": [
     {
