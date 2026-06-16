@@ -5,3 +5,13 @@ Don't put the number of cards etc in the subtitle. Just say, for example, "Tier 
 Append each prompt used to prompts.txt
 
 Treat set 10A as a part of set 10. Don't do a separate set tier for it.
+
+Bring in some look and feel from https://transformers.cards
+
+Make the background, i.e. the parts that aren't within a lozenge, more transparent so the background comes through a bit more.
+
+And a bit more.
+
+What's the point of the "Autobots - Deceptions - Neutrals" subtitle?
+
+Make it "Tiers for the Transformers TCG" and change the subtitle of, for example, "Tier for Wave 6." to "Drag cards from the untiered pool into tiers A through F."

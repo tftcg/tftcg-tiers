@@ -139,9 +139,9 @@
 
   function updatePageCopy() {
     setEyebrow.textContent = currentSetMeta.name;
-    pageTitle.textContent = `${currentSetMeta.name} Tier Views`;
-    pageSubhead.textContent = `Tier for ${currentSetMeta.name}.`;
-    document.title = `${currentSetMeta.name} · TFTCG Tier Views`;
+    pageTitle.textContent = "Tiers for the Transformers TCG";
+    pageSubhead.textContent = "Drag cards from the untiered pool into tiers A through F.";
+    document.title = `${currentSetMeta.name} · Tiers for the Transformers TCG`;
   }
 
   function updateSelectedSetState(replaceHistory) {
