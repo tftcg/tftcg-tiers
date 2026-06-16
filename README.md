@@ -2,7 +2,7 @@
 
 Static Transformers TCG tier-site sources live under `docs/tiersite/`.
 
-The site is generated directly from the OCTGN card data in `/workspace/octgn-data` and uses those card images in place.
+The site is generated directly from the OCTGN card data in `/workspace/octgn-data` and copies the images it uses into the published `docs/tiersite/assets/` tree.
 
 ## Regenerating the site data
 
@@ -23,6 +23,8 @@ That rebuilds:
 
 - `docs/tiersite/data/manifest.js`
 - `docs/tiersite/data/set.<wave>.js`
+- `docs/tiersite/assets/background_primus4.png`
+- `docs/tiersite/assets/cards/<octgn-set-id>/...`
 
 ## Notes
 

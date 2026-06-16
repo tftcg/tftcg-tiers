@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -31,6 +32,10 @@ MERGED_SET_NAMES = {
 }
 OUTPUT_ROOT = Path(__file__).resolve().parent / "docs" / "tiersite"
 DATA_DIR = OUTPUT_ROOT / "data"
+ASSETS_DIR = OUTPUT_ROOT / "assets"
+CARD_ASSETS_DIR = ASSETS_DIR / "cards"
+BACKGROUND_SOURCE = Path(__file__).resolve().parent.parent / "octgn-data" / "assets" / "background_primus4.png"
+BACKGROUND_OUTPUT = ASSETS_DIR / "background_primus4.png"
 SETS_DIR = Path(__file__).resolve().parent.parent / "octgn-data" / "Sets"
 
 
@@ -163,8 +168,23 @@ def resolve_image_filename(
     return None
 
 
-def relative_image_url(set_dir_name: str, filename: str) -> str:
-    return "../../../octgn-data/" + encode_path_segments("Sets", set_dir_name, "Cards", filename)
+def copy_card_image(set_dir_name: str, filename: str) -> str:
+    source = SETS_DIR / set_dir_name / "Cards" / filename
+    if not source.is_file():
+        raise SystemExit(f"error: source image missing: {source}")
+
+    destination_dir = CARD_ASSETS_DIR / set_dir_name
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    destination = destination_dir / filename
+    shutil.copy2(source, destination)
+    return "assets/" + encode_path_segments("cards", set_dir_name, filename)
+
+
+def copy_site_background() -> None:
+    if not BACKGROUND_SOURCE.is_file():
+        raise SystemExit(f"error: background image missing: {BACKGROUND_SOURCE}")
+    ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(BACKGROUND_SOURCE, BACKGROUND_OUTPUT)
 
 
 def build_mode_entry(
@@ -188,7 +208,7 @@ def build_mode_entry(
     return {
         "label": mode_label_for(type_name, has_alternates=has_alternates, is_primary=is_primary),
         "type": type_name,
-        "image": relative_image_url(set_dir_name, image_filename),
+        "image": copy_card_image(set_dir_name, image_filename),
         "atk": props.get("ATK", ""),
         "def": props.get("DEF", ""),
         "hp": props.get("HP", ""),
@@ -394,6 +414,8 @@ def write_manifest(manifest: dict) -> None:
 def cleanup_generated_assets() -> None:
     for path in DATA_DIR.glob("set.*.js"):
         path.unlink()
+    if CARD_ASSETS_DIR.is_dir():
+        shutil.rmtree(CARD_ASSETS_DIR)
 
 
 def discover_set_dirs(args: list[str]) -> list[Path]:
@@ -425,6 +447,7 @@ def main(argv: list[str]) -> int:
     set_dirs = discover_set_dirs(argv[1:])
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     cleanup_generated_assets()
+    copy_site_background()
 
     payloads = []
     grouped_set_dirs: dict[str, list[Path]] = {}

@@ -37,7 +37,7 @@ body {
     linear-gradient(180deg, rgba(5, 8, 14, 0.54), rgba(4, 7, 13, 0.74)),
     linear-gradient(135deg, rgba(255, 102, 77, 0.04), transparent 30%),
     radial-gradient(circle at top, rgba(68, 198, 255, 0.1), transparent 34%),
-    url("../../../octgn-data/assets/background_primus4.png") center top / cover no-repeat fixed,
+    url("assets/background_primus4.png") center top / cover no-repeat fixed,
     linear-gradient(180deg, var(--bg-alt), var(--bg));
   position: relative;
 }

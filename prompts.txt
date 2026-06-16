@@ -21,3 +21,5 @@ Remove the Autobots Decepticons Neutrals.
 Drop "Continuation" from the title.
 
 Switch to A, B, C, D, E, F tiers.
+
+Copy the images into the docs site and serve from within the repository for now rather than using a relative local url.

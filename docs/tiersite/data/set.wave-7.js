@@ -33,7 +33,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/4f561444-69f8-4eca-ba30-d5f276413270.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/4f561444-69f8-4eca-ba30-d5f276413270.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -61,7 +61,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/95be641f-b722-4686-9530-a05f8b9f9d17.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/95be641f-b722-4686-9530-a05f8b9f9d17.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -91,7 +91,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/f2d78b2b-19bd-492b-95a0-86db9af7e0e8.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/f2d78b2b-19bd-492b-95a0-86db9af7e0e8.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -121,7 +121,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Secret Action",
           "type": "Secret Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/d67e25d2-5297-4bb7-b411-e90b8d701c9e.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/d67e25d2-5297-4bb7-b411-e90b8d701c9e.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -151,7 +151,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e83fc415-02d0-4800-9fce-d64214eeba41.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e83fc415-02d0-4800-9fce-d64214eeba41.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -183,7 +183,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/a450da4d-fdef-40c1-980a-9c4ba8f1f66e.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/a450da4d-fdef-40c1-980a-9c4ba8f1f66e.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -215,7 +215,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e372c139-18da-47d6-9367-d976262330bc.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e372c139-18da-47d6-9367-d976262330bc.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -245,7 +245,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Secret Action",
           "type": "Secret Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/a0c37de4-cc63-43e4-bab4-680ea9ed9d60.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/a0c37de4-cc63-43e4-bab4-680ea9ed9d60.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -275,7 +275,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Weapon",
           "type": "Upgrade - Weapon",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e3bed4a0-5ae1-4866-b72a-141ddf2e7d43.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e3bed4a0-5ae1-4866-b72a-141ddf2e7d43.jpg",
           "atk": "2",
           "def": "",
           "hp": "",
@@ -305,7 +305,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Secret Action",
           "type": "Secret Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e6c9b04c-e1c2-40f2-9b4e-8c758d45d0e0.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e6c9b04c-e1c2-40f2-9b4e-8c758d45d0e0.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -333,7 +333,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/6c1269d3-56d1-4fbe-bb8d-e59d35f72c6d.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/6c1269d3-56d1-4fbe-bb8d-e59d35f72c6d.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -363,7 +363,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/d8827040-a3a3-4fc9-8c1d-b46348d04979.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/d8827040-a3a3-4fc9-8c1d-b46348d04979.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -393,7 +393,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/db0b1ee3-4170-4724-8e5e-34c5ced062b6.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/db0b1ee3-4170-4724-8e5e-34c5ced062b6.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -421,7 +421,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/0f1d6669-cbf5-4141-8b51-23766e7ff302.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/0f1d6669-cbf5-4141-8b51-23766e7ff302.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -449,7 +449,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/ff7fb64c-3e31-4c49-8d76-20fc4cb33067.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/ff7fb64c-3e31-4c49-8d76-20fc4cb33067.jpg",
           "atk": "",
           "def": "1",
           "hp": "",
@@ -477,7 +477,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/8f0e44bb-952e-49e4-a4b9-89e6a1173cfd.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/8f0e44bb-952e-49e4-a4b9-89e6a1173cfd.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -505,7 +505,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Armor",
           "type": "Upgrade - Armor",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/f8a95c8f-7833-485f-bc6f-203c6e1926ea.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/f8a95c8f-7833-485f-bc6f-203c6e1926ea.jpg",
           "atk": "",
           "def": "1",
           "hp": "",
@@ -533,7 +533,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Weapon",
           "type": "Upgrade - Weapon",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/3213d60e-c89e-45f0-b652-83cbb32a9616.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/3213d60e-c89e-45f0-b652-83cbb32a9616.jpg",
           "atk": "1",
           "def": "",
           "hp": "",
@@ -563,7 +563,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/036afad4-d21d-4265-a51b-5fc7679ac5e8.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/036afad4-d21d-4265-a51b-5fc7679ac5e8.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -593,7 +593,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Upgrade - Weapon",
           "type": "Upgrade - Weapon",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/cbb8177f-72a0-4644-8091-8ce257d0df0c.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/cbb8177f-72a0-4644-8091-8ce257d0df0c.jpg",
           "atk": "1",
           "def": "",
           "hp": "",
@@ -621,7 +621,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/115b78a4-d3c8-45a1-96f5-fbd28df7e4f0.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/115b78a4-d3c8-45a1-96f5-fbd28df7e4f0.jpg",
           "atk": "1",
           "def": "",
           "hp": "2",
@@ -635,7 +635,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/115b78a4-d3c8-45a1-96f5-fbd28df7e4f0.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/115b78a4-d3c8-45a1-96f5-fbd28df7e4f0.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -663,7 +663,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/735c5748-1866-4954-9bbf-bf372e9e9c11.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/735c5748-1866-4954-9bbf-bf372e9e9c11.jpg",
           "atk": "1",
           "def": "",
           "hp": "4",
@@ -677,7 +677,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/735c5748-1866-4954-9bbf-bf372e9e9c11.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/735c5748-1866-4954-9bbf-bf372e9e9c11.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -705,7 +705,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/63f4e441-03ef-4fb9-a4ce-b240ca8d58f5.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/63f4e441-03ef-4fb9-a4ce-b240ca8d58f5.jpg",
           "atk": "",
           "def": "",
           "hp": "2",
@@ -719,7 +719,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/63f4e441-03ef-4fb9-a4ce-b240ca8d58f5.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/63f4e441-03ef-4fb9-a4ce-b240ca8d58f5.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -747,7 +747,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e904debc-ef26-462e-91bd-23cb3175e0ad.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e904debc-ef26-462e-91bd-23cb3175e0ad.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -761,7 +761,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e904debc-ef26-462e-91bd-23cb3175e0ad.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e904debc-ef26-462e-91bd-23cb3175e0ad.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -789,7 +789,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/c9436635-6880-44c2-b9fc-56f0605f2252.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/c9436635-6880-44c2-b9fc-56f0605f2252.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -803,7 +803,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/c9436635-6880-44c2-b9fc-56f0605f2252.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/c9436635-6880-44c2-b9fc-56f0605f2252.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -831,7 +831,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/4d76a13c-5a9a-4cf0-907b-ea282d12e72f.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/4d76a13c-5a9a-4cf0-907b-ea282d12e72f.jpg",
           "atk": "",
           "def": "",
           "hp": "1",
@@ -845,7 +845,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/4d76a13c-5a9a-4cf0-907b-ea282d12e72f.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/4d76a13c-5a9a-4cf0-907b-ea282d12e72f.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -873,7 +873,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e9e0b8ff-2515-4b27-9a85-59c88e493307.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e9e0b8ff-2515-4b27-9a85-59c88e493307.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -887,7 +887,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e9e0b8ff-2515-4b27-9a85-59c88e493307.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e9e0b8ff-2515-4b27-9a85-59c88e493307.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -915,7 +915,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/7d83bd13-1c2c-4178-9b2f-91792bf418b2.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/7d83bd13-1c2c-4178-9b2f-91792bf418b2.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -929,7 +929,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/7d83bd13-1c2c-4178-9b2f-91792bf418b2.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/7d83bd13-1c2c-4178-9b2f-91792bf418b2.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -957,7 +957,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/db8d2a41-64f0-45fb-a554-9491a06b92a3.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/db8d2a41-64f0-45fb-a554-9491a06b92a3.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -971,7 +971,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/db8d2a41-64f0-45fb-a554-9491a06b92a3.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/db8d2a41-64f0-45fb-a554-9491a06b92a3.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -999,7 +999,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/0004ea9e-d792-4b79-ac96-67fdc33e2810.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/0004ea9e-d792-4b79-ac96-67fdc33e2810.jpg",
           "atk": "",
           "def": "",
           "hp": "2",
@@ -1013,7 +1013,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/0004ea9e-d792-4b79-ac96-67fdc33e2810.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/0004ea9e-d792-4b79-ac96-67fdc33e2810.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1041,7 +1041,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/71f4ba69-2580-458d-970b-fefe583c8504.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/71f4ba69-2580-458d-970b-fefe583c8504.jpg",
           "atk": "",
           "def": "",
           "hp": "2",
@@ -1055,7 +1055,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/71f4ba69-2580-458d-970b-fefe583c8504.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/71f4ba69-2580-458d-970b-fefe583c8504.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1083,7 +1083,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/cc0ae628-cd2a-4f93-a3eb-308a5674d699.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/cc0ae628-cd2a-4f93-a3eb-308a5674d699.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1097,7 +1097,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/cc0ae628-cd2a-4f93-a3eb-308a5674d699.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/cc0ae628-cd2a-4f93-a3eb-308a5674d699.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1125,7 +1125,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/bde817bb-3b1b-48cc-aac2-a712d5d83a88.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/bde817bb-3b1b-48cc-aac2-a712d5d83a88.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1139,7 +1139,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/bde817bb-3b1b-48cc-aac2-a712d5d83a88.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/bde817bb-3b1b-48cc-aac2-a712d5d83a88.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1167,7 +1167,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/7e1f34bb-2f03-4849-8119-1fdc5b6ab1ca.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/7e1f34bb-2f03-4849-8119-1fdc5b6ab1ca.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1181,7 +1181,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/7e1f34bb-2f03-4849-8119-1fdc5b6ab1ca.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/7e1f34bb-2f03-4849-8119-1fdc5b6ab1ca.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1209,7 +1209,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/70b61557-0901-4c64-81be-ee9fb91f1a39.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/70b61557-0901-4c64-81be-ee9fb91f1a39.jpg",
           "atk": "2",
           "def": "1",
           "hp": "",
@@ -1223,7 +1223,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/70b61557-0901-4c64-81be-ee9fb91f1a39.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/70b61557-0901-4c64-81be-ee9fb91f1a39.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1251,7 +1251,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e3e7f86e-3527-4314-aacc-40121b918e4d.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e3e7f86e-3527-4314-aacc-40121b918e4d.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1265,7 +1265,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/e3e7f86e-3527-4314-aacc-40121b918e4d.back.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/e3e7f86e-3527-4314-aacc-40121b918e4d.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -1299,7 +1299,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/ebeb4b3f-06e0-4339-9a7c-43cab5787666.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/ebeb4b3f-06e0-4339-9a7c-43cab5787666.jpg",
           "atk": "3",
           "def": "3",
           "hp": "10",
@@ -1316,7 +1316,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/ebeb4b3f-06e0-4339-9a7c-43cab5787666.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/ebeb4b3f-06e0-4339-9a7c-43cab5787666.Bot.jpg",
           "atk": "4",
           "def": "2",
           "hp": "10",
@@ -1353,7 +1353,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/5eae7292-3566-45bc-a942-1d4a46853d60.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/5eae7292-3566-45bc-a942-1d4a46853d60.jpg",
           "atk": "5",
           "def": "3",
           "hp": "16",
@@ -1371,7 +1371,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/5eae7292-3566-45bc-a942-1d4a46853d60.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/5eae7292-3566-45bc-a942-1d4a46853d60.Bot.jpg",
           "atk": "6",
           "def": "2",
           "hp": "16",
@@ -1408,7 +1408,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/d8234772-fdaf-47a4-be8a-a92e86226ef1.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/d8234772-fdaf-47a4-be8a-a92e86226ef1.jpg",
           "atk": "3",
           "def": "2",
           "hp": "12",
@@ -1425,7 +1425,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/d8234772-fdaf-47a4-be8a-a92e86226ef1.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/d8234772-fdaf-47a4-be8a-a92e86226ef1.Bot.jpg",
           "atk": "4",
           "def": "1",
           "hp": "12",
@@ -1461,7 +1461,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/afad39b3-2580-45ff-9aaa-4c998eda0df7.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/afad39b3-2580-45ff-9aaa-4c998eda0df7.jpg",
           "atk": "6",
           "def": "2",
           "hp": "15",
@@ -1478,7 +1478,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/afad39b3-2580-45ff-9aaa-4c998eda0df7.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/afad39b3-2580-45ff-9aaa-4c998eda0df7.Bot.jpg",
           "atk": "5",
           "def": "3",
           "hp": "15",
@@ -1513,7 +1513,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/9d5fe24a-0958-46b0-8226-719d201ba9ac.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/9d5fe24a-0958-46b0-8226-719d201ba9ac.jpg",
           "atk": "5",
           "def": "3",
           "hp": "14",
@@ -1530,7 +1530,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/9d5fe24a-0958-46b0-8226-719d201ba9ac.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/9d5fe24a-0958-46b0-8226-719d201ba9ac.Bot.jpg",
           "atk": "6",
           "def": "2",
           "hp": "14",
@@ -1565,7 +1565,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/a5d57e91-fb4e-41b5-9c76-1f5c7b3ea6b9.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/a5d57e91-fb4e-41b5-9c76-1f5c7b3ea6b9.jpg",
           "atk": "4",
           "def": "2",
           "hp": "13",
@@ -1582,7 +1582,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/a5d57e91-fb4e-41b5-9c76-1f5c7b3ea6b9.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/a5d57e91-fb4e-41b5-9c76-1f5c7b3ea6b9.Bot.jpg",
           "atk": "5",
           "def": "2",
           "hp": "13",
@@ -1617,7 +1617,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/667efc1c-70a2-4c70-a3b0-eb9cdad9778d.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/667efc1c-70a2-4c70-a3b0-eb9cdad9778d.jpg",
           "atk": "4",
           "def": "2",
           "hp": "12",
@@ -1634,7 +1634,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/667efc1c-70a2-4c70-a3b0-eb9cdad9778d.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/667efc1c-70a2-4c70-a3b0-eb9cdad9778d.Bot.jpg",
           "atk": "5",
           "def": "2",
           "hp": "12",
@@ -1672,7 +1672,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/c58ec919-ed73-47ed-a457-412f27854e37.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/c58ec919-ed73-47ed-a457-412f27854e37.jpg",
           "atk": "4",
           "def": "3",
           "hp": "13",
@@ -1691,7 +1691,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/c58ec919-ed73-47ed-a457-412f27854e37.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/c58ec919-ed73-47ed-a457-412f27854e37.Bot.jpg",
           "atk": "5",
           "def": "2",
           "hp": "13",
@@ -1727,7 +1727,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/dc051755-646c-45c2-a9c5-a3772073524b.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/dc051755-646c-45c2-a9c5-a3772073524b.jpg",
           "atk": "5",
           "def": "2",
           "hp": "12",
@@ -1744,7 +1744,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/dc051755-646c-45c2-a9c5-a3772073524b.Bot.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/dc051755-646c-45c2-a9c5-a3772073524b.Bot.jpg",
           "atk": "4",
           "def": "2",
           "hp": "12",
@@ -1778,7 +1778,7 @@ window.TFTCG_TIER_SITE_SETS["wave-7"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/16cc506a-dfa3-47dc-b78c-4c92085e0f38/Cards/d96479fc-7ccd-4fc0-82d6-1089f902302a.jpg",
+          "image": "assets/cards/16cc506a-dfa3-47dc-b78c-4c92085e0f38/d96479fc-7ccd-4fc0-82d6-1089f902302a.jpg",
           "atk": "4",
           "def": "2",
           "hp": "11",

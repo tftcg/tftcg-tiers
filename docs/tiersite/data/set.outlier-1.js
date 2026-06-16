@@ -33,7 +33,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Secret Action",
           "type": "Secret Action",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/5c4d5178-a594-4eab-8ece-6bd740296fbd.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/5c4d5178-a594-4eab-8ece-6bd740296fbd.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -61,7 +61,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/a542135a-c7d6-4395-a466-a5d8d47a0529.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/a542135a-c7d6-4395-a466-a5d8d47a0529.jpg",
           "atk": "1",
           "def": "1",
           "hp": "",
@@ -89,7 +89,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/8ceec27b-c928-4b76-8201-57664d9a57eb.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/8ceec27b-c928-4b76-8201-57664d9a57eb.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -117,7 +117,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Upgrade - Weapon",
           "type": "Upgrade - Weapon",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/a6c03272-de53-4836-9042-9786ad418ac6.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/a6c03272-de53-4836-9042-9786ad418ac6.jpg",
           "atk": "1",
           "def": "",
           "hp": "",
@@ -145,7 +145,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Upgrade - Weapon",
           "type": "Upgrade - Weapon",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/b9314ac2-f46a-459b-95ee-79f5b38fa496.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/b9314ac2-f46a-459b-95ee-79f5b38fa496.jpg",
           "atk": "2",
           "def": "",
           "hp": "",
@@ -173,7 +173,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/a7bab216-67df-44eb-88c8-63447526347f.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/a7bab216-67df-44eb-88c8-63447526347f.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -201,7 +201,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/0865bd6b-2def-48c4-8823-4be5b5f77d83.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/0865bd6b-2def-48c4-8823-4be5b5f77d83.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -229,7 +229,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Upgrade - Utility",
           "type": "Upgrade - Utility",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/f002cef8-e965-4969-b778-42c140128c1f.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/f002cef8-e965-4969-b778-42c140128c1f.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -257,7 +257,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Action",
           "type": "Action",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/cdb1f267-8783-4eb9-8ad9-68814d8e4b74.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/cdb1f267-8783-4eb9-8ad9-68814d8e4b74.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -283,7 +283,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Front",
           "type": "Stratagem",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/be658582-3083-484e-8464-17d8b58da92b.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/be658582-3083-484e-8464-17d8b58da92b.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -295,7 +295,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "",
           "type": "",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/be658582-3083-484e-8464-17d8b58da92b.back.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/be658582-3083-484e-8464-17d8b58da92b.back.jpg",
           "atk": "",
           "def": "",
           "hp": "",
@@ -326,7 +326,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/0fc38719-f2ad-4cbc-9cc8-124a4590e707.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/0fc38719-f2ad-4cbc-9cc8-124a4590e707.jpg",
           "atk": "0",
           "def": "0",
           "hp": "35",
@@ -340,7 +340,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/0fc38719-f2ad-4cbc-9cc8-124a4590e707.Bot.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/0fc38719-f2ad-4cbc-9cc8-124a4590e707.Bot.jpg",
           "atk": "6",
           "def": "1",
           "hp": "35",
@@ -378,7 +378,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/a85a69fb-2746-43a5-a7dd-3f3f71f83011.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/a85a69fb-2746-43a5-a7dd-3f3f71f83011.jpg",
           "atk": "4",
           "def": "2",
           "hp": "12",
@@ -396,7 +396,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/a85a69fb-2746-43a5-a7dd-3f3f71f83011.Alt.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/a85a69fb-2746-43a5-a7dd-3f3f71f83011.Alt.jpg",
           "atk": "4",
           "def": "2",
           "hp": "12",
@@ -432,7 +432,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/ece7b7d8-7d3a-40d5-a128-b602447bbc82.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/ece7b7d8-7d3a-40d5-a128-b602447bbc82.jpg",
           "atk": "3",
           "def": "2",
           "hp": "4",
@@ -470,7 +470,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/44e62566-21d3-4ce9-9643-bf5920da29f9.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/44e62566-21d3-4ce9-9643-bf5920da29f9.jpg",
           "atk": "4",
           "def": "2",
           "hp": "13",
@@ -488,7 +488,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/44e62566-21d3-4ce9-9643-bf5920da29f9.Bot.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/44e62566-21d3-4ce9-9643-bf5920da29f9.Bot.jpg",
           "atk": "4",
           "def": "2",
           "hp": "13",
@@ -526,7 +526,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Alt",
           "type": "Character - Alt Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/cdb0e0a8-34e9-411b-ad84-de94a8fced58.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/cdb0e0a8-34e9-411b-ad84-de94a8fced58.jpg",
           "atk": "5",
           "def": "3",
           "hp": "17",
@@ -545,7 +545,7 @@ window.TFTCG_TIER_SITE_SETS["outlier-1"] = {
         {
           "label": "Bot",
           "type": "Character - Bot Mode",
-          "image": "../../../octgn-data/Sets/51da13e8-8e0d-4b1b-a09a-680bb5f61000/Cards/cdb0e0a8-34e9-411b-ad84-de94a8fced58.Bot.jpg",
+          "image": "assets/cards/51da13e8-8e0d-4b1b-a09a-680bb5f61000/cdb0e0a8-34e9-411b-ad84-de94a8fced58.Bot.jpg",
           "atk": "6",
           "def": "2",
           "hp": "17",
